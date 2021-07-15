@@ -1,0 +1,112 @@
+﻿@using Jahan.Handicraft.Model.UModel.URenderModel
+@using Jahan.Handicraft.Model.UModel
+
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<BaseRenderModel<Jahan.Handicraft.Model.UModel.Products>>
+
+@{
+    Layout = "_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        @Html.Partial("_Breadcrumb", (List<Breadcrumb>)ViewBag.BreadcrumbList)
+    </div>
+
+    @{
+        var items = Model.Model.ProductList;
+        var pageSize = 10;
+        var page = 1; int.TryParse(Request.QueryString["page"], out page);
+        var totalPages = (int)Math.Ceiling((double)items.Count() / (double)pageSize);
+
+        if (page > totalPages)
+        {
+            page = totalPages;
+        }
+        else if (page < 1)
+        {
+            page = 1;
+        }
+        var range = (totalPages >= 5) ? 5 : totalPages;
+        var rangeOffset = page + 3;
+        var pAdjusted = page - 2;
+        //int start = (currentPage - window) < 0 ? (currentPage - window) : 1;
+        if (page < range - 2)
+        {
+            pAdjusted = 1;
+            rangeOffset = range + 1;
+        }
+        else if (rangeOffset > totalPages)
+        {
+            pAdjusted = totalPages - range + 1;
+            rangeOffset = totalPages + 1;
+        }
+
+    }
+    <ul class="row cards">
+        @foreach (var prod in Model.Model.ProductList.AsEnumerable().Reverse().Skip((page - 1) * pageSize).Take(pageSize))
+        {
+            <li class="cards__item">
+                <div class="card">
+                    <div class="card__image card__image--fence">
+                        <img class="imgProd" src="@prod.MainPicture"/>
+                    </div>
+                    <div class="card__content">
+                        <div class="card__title">@prod.FirstTitle</div>
+                        <div class="card__text txtRestrict">
+                            @Html.Raw(prod.Description)
+                          
+                        </div>
+                        <div>
+                            <a href="@prod.Url" class="btnReadmore btnBlock">Read more</a>    
+                        </div>
+                        
+                    </div>
+                </div>
+            </li>
+                                }
+    </ul>
+
+
+    @if (totalPages > 1)
+    {
+        <div class="pagination pagination__posts">
+            <ul>
+                <li>
+                    @if (page > 1)
+                    {
+                        @Html.Raw("<a href=\"?page=")@(page - 1)@Html.Raw("\">Prev</a>")
+                    }
+                    else
+                    {
+                        @Html.Raw("Prev");
+                    }
+                </li>
+                @for (int p = pAdjusted; p < rangeOffset; p++)
+                {
+                    var active = (p == page) ? "active" : string.Empty;
+                    <li class="@(Html.Raw(active))">
+                        <a href="?page=@p">@p</a>
+                    </li>
+                }
+                <li>
+                    @if (page < totalPages)
+                    {
+                        @Html.Raw("<a href=\"?page=")@(page + 1)@Html.Raw("\">Next</a>")
+                    }
+                    else
+                    {
+                        @Html.Raw("Next");
+                    }
+                </li>
+            </ul>
+        </div>
+    }
+</div>
+
+<div id="back-top-wrapper" class="visible-desktop">
+    <p style="display: block;" id="back-top">
+        <a href="#"><span></span></a>
+    </p>
+</div>
+
+

@@ -1,0 +1,173 @@
+﻿@using Jahan.Handicraft.Model.UModel
+@using Jahan.Handicraft.Model.UModel.URenderModel
+
+
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<BaseRenderModel<Jahan.Handicraft.Model.UModel.Product>>
+
+@{
+    Layout = "_Layout.cshtml";
+}
+
+<div>
+    @Html.Partial("_Breadcrumb", (List<Breadcrumb>)ViewBag.BreadcrumbList)
+</div>
+
+<div class="single single-post postid-1910 single-format-standard cat-32-id">
+    <div id="motopress-main" class="main-holder">
+
+        <div class="motopress-wrapper content-holder clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="span12" data-motopress-wrapper-file="single.php" data-motopress-wrapper-type="content">
+                        <div class="row">
+                            <div class="span8 right right" id="content" data-motopress-type="loop" data-motopress-loop-file="loop/loop-single.php">
+                                <article id="@Model.Model.Id" class="post-@Model.Model.Id post type-post status-publish format-standard has-post-thumbnail hentry category-etiam-cursus-leo-vel-metus tag-elit tag-ipsum-dolor tag-lorem post__holder cat-32-id">
+                                    <figure class="featured-thumbnail thumbnail large">
+                                        <img style="display: block;" src="@Model.Model.MainPicture" alt="@Model.Model.FirstTitle">
+                                        @if (Model.Model.FirstPartOfPrice != string.Empty)
+                                        {
+                                        <span class="price"><i>€</i>@Model.Model.FirstPartOfPrice.<b>@Model.Model.SecondPartOfPrice</b></span>
+                                        }
+                                    </figure>
+
+                                    <div class="post_content">
+                                        <h2>@Model.Model.SecondTitle</h2>
+                                        <p>
+                                            <h3>
+                                                @Html.Raw(Model.Model.Description)
+                                            </h3>
+                                            
+                                        </p>
+
+                                        <p>
+
+                                        </p>
+                                        <div class="clear"></div>
+                                    </div>
+
+
+                                    <div class="post_meta meta_type_line">
+                                        <div class="post_meta_unite clearfix">
+                                            <div class="meta_group clearfix">
+                                                <div class="post_category">
+                                                    <i class="icon-bookmark"></i>
+                                                    <a href="@Model.Content.Parent.Url" title="@Model.Content.Parent.Name" rel="category tag">@Model.Content.Parent.Name</a>
+                                                </div>
+                                                <div class="post_date">
+                                                    <i class="icon-calendar"></i>
+                                                    <time datetime="2014-05-27T06:31:56">@Model.Model.CreateDate</time>
+                                                </div>
+
+                                            </div><div class="meta_group clearfix"></div><div class="meta_group clearfix"></div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <script>
+                                    (function (d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id)) { return; }
+                                        js = d.createElement(s); js.id = id;
+                                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));
+                                </script>
+
+                                <script type="text/javascript">
+                                    (function () {
+                                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                        po.src = '//apis.google.com/js/plusone.js';
+                                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                                    })();
+                                </script>
+                                <ul class="share-buttons unstyled clearfix">
+                                    <li class="twitter">
+                                        <iframe src="/content/images/tweet_button.htm" title="Twitter Tweet Button" style="position: static; visibility: visible; width: 61px; height: 20px;" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0"></iframe>
+                                        <script>
+                                            !function(d, s, id) {
+                                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                                                if (!d.getElementById(id)) {
+                                                    js = d.createElement(s);
+                                                    js.id = id;
+                                                    js.src = p + '://platform.twitter.com/widgets.js';
+                                                    fjs.parentNode.insertBefore(js, fjs);
+                                                }
+                                            }(document, 'script', 'twitter-wjs');
+                                        </script>
+                                    </li>
+
+                                    <li class="facebook">
+                                        <div class=" fb_reset" id="fb-root">
+
+                                            <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+                                                <div>
+                                                    <iframe src="http://staticxx.facebook.com/connect/xd_arbiter/r/LJ9CfGDsgQ7.js?version=42#channel=f2f4326a5dae6&amp;origin=http%3A%2F%2Flivedemo00.template-help.com" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0"></iframe>
+                                                    <iframe src="/Content/images/LJ9CfGDsgQ7_002.htm" style="border: medium none;" tabindex="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" scrolling="no" allowfullscreen="true" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0"></iframe>
+                                                </div>
+                                            </div>
+                                            <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <div fb-iframe-plugin-query="app_id=&amp;container_width=90&amp;font=arial&amp;href=http%3A%2F%2Flivedemo00.template-help.com%2Fwordpress_50935%2Fetiam-cursus-leo-vel-metus%2Florem-ipsum-dolor%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=100" fb-xfbml-state="rendered" class="fb-like fb_iframe_widget" data-href="http://livedemo00.template-help.com/wordpress_50935/etiam-cursus-leo-vel-metus/lorem-ipsum-dolor/" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial">
+                                            <span style="vertical-align: bottom; width: 80px; height: 20px;">
+                                                <iframe class="" src="/content/images/like.htm" style="border: medium none; visibility: visible; width: 80px; height: 20px;" title="fb:like Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f349415cbc60654" frameborder="0" height="1000px" width="100px"></iframe>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="google">
+                                        <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent none repeat scroll 0% 0%; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px;">
+                                            <iframe title="+1" data-gapiattached="true" src="/Content/images/fastbutton.htm" name="I0_1471586906889" id="I0_1471586906889" vspace="0" tabindex="0" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" scrolling="no" marginwidth="0" marginheight="0" hspace="0" frameborder="0" width="100%">
+
+                                            </iframe>
+                                        </div>
+                                    </li>
+                                    <li class="pinterest">
+                                        <a href="#">
+                                            <img src="/Content/images/PinExt.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <div class="related-posts">
+
+                                    <h3 class="related-posts_h">Related Posts</h3>
+                                    <ul class="related-posts_list clearfix">
+                                        @foreach (var rp in Model.Model.RelatedProductList)
+                                        {
+                                            <li class="related-posts_item">
+                                                <figure class="thumbnail featured-thumbnail">
+                                                    <a href="@rp.Link.LinkUrl" title="@rp.ProductName">
+                                                        <img data-src="@rp.Picture" alt="@rp.ProductName">
+                                                    </a>
+                                                    
+                                                </figure><a href="@rp.Link.LinkUrl">@rp.ProductName</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="span4 sidebar" id="sidebar" data-motopress-type="static-sidebar" data-motopress-sidebar-file="sidebar.php">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="back-top-wrapper" class="visible-desktop">
+        <p id="back-top">
+            <a href="#"><span></span></a>
+        </p>
+    </div>
+
+
+
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-N7VWVN" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+</div>

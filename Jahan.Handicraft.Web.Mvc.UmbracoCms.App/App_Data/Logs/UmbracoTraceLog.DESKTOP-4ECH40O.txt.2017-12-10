@@ -1,0 +1,1586 @@
+﻿ 2017-12-10 01:49:51,604 [P12112/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-4ECH40O
+ 2017-12-10 01:49:51,692 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-10 01:49:51,723 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 30ms)
+ 2017-12-10 01:49:51,779 [P12112/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-10 01:49:51,780 [P12112/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-10 01:49:51,786 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-10 01:49:53,138 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 1352ms)
+ 2017-12-10 01:49:53,158 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-10 01:49:53,163 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+ 2017-12-10 01:49:53,164 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-10 01:49:53,171 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 7ms)
+ 2017-12-10 01:49:53,185 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-12-10 01:49:53,190 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2017-12-10 01:49:53,191 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-10 01:49:53,207 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 15ms)
+ 2017-12-10 01:49:53,365 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-12-10 01:49:53,374 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 9ms)
+ 2017-12-10 01:49:53,375 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-12-10 01:49:53,381 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 6ms)
+ 2017-12-10 01:49:55,857 [P12112/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 01:49:57,060 [P12112/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 01:49:57,100 [P12112/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-10 01:49:57,123 [P12112/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-12-10 01:49:57,214 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-10 01:49:57,220 [P12112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 6ms)
+ 2017-12-10 01:49:57,945 [P12112/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-10 01:49:58,154 [P12112/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-10 01:49:58,169 [P12112/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 01:49:58,428 [P12112/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 7296ms)
+ 2017-12-10 01:49:59,235 [P12112/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:23695/umbraco (UmbracoModule request)
+ 2017-12-10 01:50:00,562 [P12112/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2017-12-10 01:50:00,567 [P12112/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2017-12-10 01:50:02,411 [P12112/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-10 01:50:02,447 [P12112/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 35ms)
+ 2017-12-10 01:50:19,527 [P12112/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:50:22,570 [P12112/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:50:22,700 [P12112/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:50:22,727 [P12112/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:50:24,455 [P12112/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:50:27,241 [P12112/D2/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:50:27,725 [P12112/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:50:29,279 [P12112/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:00,839 [P12112/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-12-09 01:51:00
+ 2017-12-10 01:51:06,676 [P12112/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:06,676 [P12112/D2/T13] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:06,678 [P12112/D2/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:06,733 [P12112/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:06,841 [P12112/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:06,894 [P12112/D2/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:06,937 [P12112/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:08,830 [P12112/D2/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:18,284 [P12112/D2/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:18,285 [P12112/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:18,299 [P12112/D2/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:18,313 [P12112/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:18,448 [P12112/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:18,512 [P12112/D2/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:18,555 [P12112/D2/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:51:19,115 [P12112/D2/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:52:05,461 [P12112/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-12-10 01:52:05,461 [P12112/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-12-10 01:52:05,466 [P12112/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-12-10 01:52:05,743 [P12112/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-12-10 01:52:05,743 [P12112/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-12-10 01:52:05,743 [P12112/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-12-10 01:52:05,743 [P12112/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-12-10 01:52:05,743 [P12112/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-12-10 01:52:05,743 [P12112/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-12-10 01:52:05,743 [P12112/D2/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-12-10 01:52:05,743 [P12112/D2/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-12-10 01:52:05,743 [P12112/D2/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-12-10 01:52:05,745 [P12112/D2/T16] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-12-10 01:52:05,768 [P12112/D2/T16] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-12-10 01:52:05,769 [P12112/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-12-10 01:52:05,769 [P12112/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-12-10 01:52:05,769 [P12112/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-12-10 01:52:31,493 [P12112/D3/T37] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-4ECH40O
+ 2017-12-10 01:52:31,522 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-10 01:52:31,534 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Hash determined (took 12ms)
+ 2017-12-10 01:52:31,827 [P12112/D3/T37] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-10 01:52:31,829 [P12112/D3/T37] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-10 01:52:31,834 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-10 01:52:32,248 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 414ms)
+ 2017-12-10 01:52:32,835 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-10 01:52:32,836 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-12-10 01:52:32,836 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-10 01:52:32,837 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-12-10 01:52:32,849 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-12-10 01:52:32,851 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2017-12-10 01:52:32,852 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-10 01:52:33,307 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 455ms)
+ 2017-12-10 01:52:33,669 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-12-10 01:52:33,670 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-12-10 01:52:33,670 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-12-10 01:52:33,671 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-12-10 01:52:34,750 [P12112/D3/T37] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 01:52:34,938 [P12112/D3/T37] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 01:52:35,115 [P12112/D3/T37] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-10 01:52:35,137 [P12112/D3/T37] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-12-10 01:52:35,157 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-10 01:52:35,159 [P12112/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-12-10 01:52:35,560 [P12112/D3/T37] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-10 01:52:35,660 [P12112/D3/T37] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-10 01:52:35,667 [P12112/D3/T37] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 01:52:35,702 [P12112/D3/T37] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4305ms)
+ 2017-12-10 01:52:35,850 [P12112/D2/T13] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-12-10 01:52:41,218 [P12112/D3/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:23695/umbraco (UmbracoModule request)
+ 2017-12-10 01:52:41,742 [P12112/D3/T10] INFO  umbraco.content - Load Xml from file...
+ 2017-12-10 01:52:41,744 [P12112/D3/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2017-12-10 01:52:42,250 [P12112/D3/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-10 01:52:42,251 [P12112/D3/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-12-10 01:52:45,238 [P12112/D3/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:52:45,238 [P12112/D3/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:52:45,281 [P12112/D3/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:52:45,281 [P12112/D3/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:52:45,430 [P12112/D3/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:52:45,515 [P12112/D3/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:52:45,585 [P12112/D3/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:52:45,616 [P12112/D3/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 01:53:41,795 [P12112/D3/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-12-09 01:53:41
+ 2017-12-10 02:01:33,454 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:33,515 [P12112/D3/T115] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:33,516 [P12112/D3/T118] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:33,645 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:34,012 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:36,027 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:36,027 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:36,029 [P12112/D3/T118] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:36,039 [P12112/D3/T115] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:36,248 [P12112/D3/T119] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:36,291 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:36,537 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:37,645 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:37,646 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:37,646 [P12112/D3/T115] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:37,647 [P12112/D3/T119] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:37,807 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:37,869 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:37,919 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:38,052 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:39,365 [P12112/D3/T115] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:39,365 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:39,365 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:39,367 [P12112/D3/T119] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:39,520 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:39,601 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:39,657 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:39,691 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:40,916 [P12112/D3/T118] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:40,916 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:40,917 [P12112/D3/T115] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:40,917 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:41,102 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:41,193 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:41,284 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:41,301 [P12112/D3/T115] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:42,935 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:42,936 [P12112/D3/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:42,936 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:42,937 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:43,148 [P12112/D3/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:43,201 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:43,445 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:44,223 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:44,223 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:44,224 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:44,241 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:44,398 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:44,481 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:44,524 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:44,548 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:45,417 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:45,418 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:45,419 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:45,419 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:45,579 [P12112/D3/T126] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:45,711 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:45,768 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:45,769 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:46,746 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:46,746 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:46,746 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:46,771 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:46,976 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:47,038 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:47,267 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:47,930 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:47,930 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:47,931 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:47,931 [P12112/D3/T130] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:48,158 [P12112/D3/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:48,225 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:48,250 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:49,271 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:49,271 [P12112/D3/T126] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:49,272 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:49,288 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:49,500 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:49,555 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:49,788 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:50,597 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:50,598 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:50,598 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:50,618 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:51,024 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:52,670 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:52,671 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:52,672 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:52,672 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:52,898 [P12112/D3/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:52,950 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:53,196 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:54,197 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:54,197 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:54,198 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:54,198 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:54,379 [P12112/D3/T126] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:54,472 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:54,525 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:54,526 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:55,620 [P12112/D3/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:55,620 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:55,621 [P12112/D3/T110] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:55,621 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:55,842 [P12112/D3/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:55,897 [P12112/D3/T111] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:01:55,932 [P12112/D3/T116] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:30,797 [P12112/D3/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:30,797 [P12112/D3/T102] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:30,797 [P12112/D3/T104] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:30,798 [P12112/D3/T107] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:31,004 [P12112/D3/T125] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:31,055 [P12112/D3/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:31,332 [P12112/D3/T107] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:35,859 [P12112/D3/T104] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:35,859 [P12112/D3/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:35,860 [P12112/D3/T107] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:35,860 [P12112/D3/T102] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:36,108 [P12112/D3/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:36,151 [P12112/D3/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:36,363 [P12112/D3/T107] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:38,082 [P12112/D3/T107] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:38,083 [P12112/D3/T102] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:38,083 [P12112/D3/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:38,084 [P12112/D3/T104] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:38,236 [P12112/D3/T126] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:38,308 [P12112/D3/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:38,346 [P12112/D3/T107] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:38,576 [P12112/D3/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:47,571 [P12112/D3/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:53,818 [P12112/D3/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:53,846 [P12112/D3/T104] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:54,021 [P12112/D3/T107] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:54,864 [P12112/D3/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:55,094 [P12112/D3/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:55,615 [P12112/D3/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:03:55,675 [P12112/D3/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:02,170 [P12112/D3/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:02,170 [P12112/D3/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:02,212 [P12112/D3/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:02,212 [P12112/D3/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:10,604 [P12112/D3/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:10,604 [P12112/D3/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:10,639 [P12112/D3/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:10,640 [P12112/D3/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:10,757 [P12112/D3/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:10,817 [P12112/D3/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:10,867 [P12112/D3/T123] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:04:11,115 [P12112/D3/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:49,235 [P12112/D3/T106] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:49,238 [P12112/D3/T64] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:49,284 [P12112/D3/T106] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:49,284 [P12112/D3/T64] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:49,509 [P12112/D3/T106] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:52,232 [P12112/D3/T106] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:52,344 [P12112/D3/T106] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:52,345 [P12112/D3/T64] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:52,379 [P12112/D3/T64] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:52,379 [P12112/D3/T106] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:52,637 [P12112/D3/T64] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:52,674 [P12112/D3/T64] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:07:52,702 [P12112/D3/T106] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:08:29,623 [P12112/D3/T4] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:08:29,623 [P12112/D3/T13] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:08:29,635 [P12112/D3/T101] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:08:29,637 [P12112/D3/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:08:29,847 [P12112/D3/T101] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:08:29,921 [P12112/D3/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:08:30,040 [P12112/D3/T101] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:09:30,725 [P12112/D3/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-12-10 02:09:30,725 [P12112/D3/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-12-10 02:09:30,727 [P12112/D3/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-12-10 02:09:30,728 [P12112/D3/T96] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-12-10 02:09:30,729 [P12112/D3/T96] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-12-10 02:09:30,731 [P12112/D3/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-12-10 02:09:30,731 [P12112/D3/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-12-10 02:09:30,731 [P12112/D3/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-12-10 02:09:30,799 [P12112/D3/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-12-10 02:09:30,799 [P12112/D3/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-12-10 02:09:30,799 [P12112/D3/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-12-10 02:09:30,799 [P12112/D3/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-12-10 02:09:30,799 [P12112/D3/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-12-10 02:09:30,799 [P12112/D3/T96] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-12-10 02:09:30,799 [P12112/D3/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-12-10 02:09:30,799 [P12112/D3/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-12-10 02:09:30,799 [P12112/D3/T94] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-12-10 02:10:00,817 [P12112/D3/T96] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-12-10 02:13:19,355 [P12112/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-4ECH40O
+ 2017-12-10 02:13:19,362 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-10 02:13:19,367 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 5ms)
+ 2017-12-10 02:13:19,406 [P12112/D4/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-10 02:13:19,407 [P12112/D4/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-10 02:13:19,412 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-10 02:13:19,525 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 113ms)
+ 2017-12-10 02:13:19,580 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-10 02:13:19,581 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-12-10 02:13:19,582 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-10 02:13:19,583 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-12-10 02:13:19,592 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-12-10 02:13:19,593 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2017-12-10 02:13:19,594 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-10 02:13:19,619 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 25ms)
+ 2017-12-10 02:13:19,667 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-12-10 02:13:19,668 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-12-10 02:13:19,669 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-12-10 02:13:19,669 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-12-10 02:13:20,438 [P12112/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 02:13:20,560 [P12112/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 02:13:20,584 [P12112/D4/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-10 02:13:20,597 [P12112/D4/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-12-10 02:13:20,608 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-10 02:13:20,609 [P12112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-12-10 02:13:21,580 [P12112/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-10 02:13:21,641 [P12112/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-10 02:13:21,642 [P12112/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 02:13:21,670 [P12112/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2383ms)
+ 2017-12-10 02:13:27,004 [P12112/D4/T56] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:23695/umbraco (UmbracoModule request)
+ 2017-12-10 02:13:27,491 [P12112/D4/T56] INFO  umbraco.content - Load Xml from file...
+ 2017-12-10 02:13:27,493 [P12112/D4/T56] INFO  umbraco.content - Loaded Xml from file.
+ 2017-12-10 02:13:28,015 [P12112/D4/T56] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-10 02:13:28,017 [P12112/D4/T56] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-12-10 02:13:31,082 [P12112/D4/T56] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:13:31,082 [P12112/D4/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:13:31,118 [P12112/D4/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:13:31,118 [P12112/D4/T56] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:13:31,320 [P12112/D4/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:13:31,361 [P12112/D4/T57] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:13:31,423 [P12112/D4/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:14:27,542 [P12112/D4/T50] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-12-09 02:14:27
+ 2017-12-10 02:15:29,972 [P12112/D4/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:29,972 [P12112/D4/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:30,136 [P12112/D4/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:30,137 [P12112/D4/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:30,467 [P12112/D4/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:47,749 [P12112/D4/T79] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:47,749 [P12112/D4/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:47,750 [P12112/D4/T84] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:47,762 [P12112/D4/T53] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:47,967 [P12112/D4/T81] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:48,025 [P12112/D4/T79] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:48,073 [P12112/D4/T53] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:15:48,117 [P12112/D4/T79] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:16,119 [P12112/D4/T76] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:16,119 [P12112/D4/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:16,120 [P12112/D4/T91] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:16,133 [P12112/D4/T86] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:16,367 [P12112/D4/T76] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:16,635 [P12112/D4/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:18,713 [P12112/D4/T58] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+   at System.IO.PathHelper.GetFullPathName()
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   at System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   at System.Web.HttpRequest.get_PhysicalPath()
+   at UrlRewritingNet.Web.UrlRewriteModule.OnBeginRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-12-10 02:17:36,268 [P12112/D4/T90] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:36,290 [P12112/D4/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:36,291 [P12112/D4/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:36,315 [P12112/D4/T90] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:36,489 [P12112/D4/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:36,575 [P12112/D4/T90] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:36,621 [P12112/D4/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:17:36,662 [P12112/D4/T90] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:23,575 [P12112/D4/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:23,576 [P12112/D4/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:23,623 [P12112/D4/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:23,624 [P12112/D4/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:23,822 [P12112/D4/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:23,870 [P12112/D4/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:24,011 [P12112/D4/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:59,195 [P12112/D4/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:59,196 [P12112/D4/T4] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:59,196 [P12112/D4/T80] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:59,233 [P12112/D4/T100] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:59,429 [P12112/D4/T80] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:18:59,564 [P12112/D4/T4] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:20:02,751 [P12112/D4/T28] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:20:02,786 [P12112/D4/T29] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:20:02,786 [P12112/D4/T27] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:20:02,787 [P12112/D4/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:20:03,015 [P12112/D4/T28] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 02:20:03,201 [P12112/D4/T29] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 19:45:02,688 [P11004/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-4ECH40O
+ 2017-12-10 19:45:02,750 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-10 19:45:02,768 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 18ms)
+ 2017-12-10 19:45:02,841 [P11004/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-10 19:45:02,842 [P11004/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-10 19:45:02,847 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-10 19:45:04,040 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 1192ms)
+ 2017-12-10 19:45:04,054 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-10 19:45:04,059 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+ 2017-12-10 19:45:04,060 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-10 19:45:04,066 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2017-12-10 19:45:04,079 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-12-10 19:45:04,084 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2017-12-10 19:45:04,084 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-10 19:45:04,100 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 15ms)
+ 2017-12-10 19:45:04,184 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-12-10 19:45:04,188 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 4ms)
+ 2017-12-10 19:45:04,188 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-12-10 19:45:04,193 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 4ms)
+ 2017-12-10 19:45:05,523 [P11004/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 19:45:06,295 [P11004/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 19:45:06,321 [P11004/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-10 19:45:06,345 [P11004/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-12-10 19:45:06,375 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-10 19:45:06,381 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 6ms)
+ 2017-12-10 19:45:06,912 [P11004/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-10 19:45:07,039 [P11004/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-10 19:45:07,055 [P11004/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 19:45:07,097 [P11004/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
+ 2017-12-10 19:45:07,154 [P11004/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2017-12-10 19:45:07,222 [P11004/D2/T1] ERROR umbraco.content - Failed to load Xml from file.
+System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(Stream inStream)
+   at umbraco.content.LoadXmlFromFile()
+ 2017-12-10 19:45:07,241 [P11004/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2017-12-10 19:45:08,398 [P11004/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2017-12-10 19:45:09,448 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-10 19:45:09,489 [P11004/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 41ms)
+ 2017-12-10 19:45:10,333 [P11004/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 7923ms)
+ 2017-12-10 19:45:10,938 [P11004/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:23695/umbraco (UmbracoModule request)
+ 2017-12-10 19:45:12,434 [P11004/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2017-12-10 19:45:12,453 [P11004/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-10 19:45:30,649 [P11004/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 19:45:32,344 [P11004/D2/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 19:45:32,373 [P11004/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 19:45:32,412 [P11004/D2/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 19:45:34,528 [P11004/D2/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 19:45:37,504 [P11004/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 19:45:37,504 [P11004/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 19:45:37,555 [P11004/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 19:45:37,582 [P11004/D2/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-12-10 20:06:30,314 [P712/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on DESKTOP-4ECH40O
+ 2017-12-10 20:06:30,342 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-10 20:06:30,357 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
+ 2017-12-10 20:06:30,413 [P712/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-10 20:06:30,415 [P712/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-10 20:06:30,416 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:06:30,790 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 373ms)
+ 2017-12-10 20:06:30,790 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-10 20:06:30,793 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 2ms)
+ 2017-12-10 20:06:30,808 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:06:30,808 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:06:30,809 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-10 20:06:30,810 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 1ms)
+ 2017-12-10 20:06:30,811 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:06:30,811 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:06:30,812 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-10 20:06:30,814 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2017-12-10 20:06:30,826 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:06:30,826 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:06:30,827 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-10 20:06:30,828 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 1ms)
+ 2017-12-10 20:06:30,829 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:06:30,829 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:06:30,830 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-10 20:06:30,831 [P712/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-12-10 20:06:32,258 [P712/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2022ms)
+ 2017-12-10 20:06:42,526 [P712/D2/T9] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-12-10 20:06:42,527 [P712/D2/T9] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2017-12-10 20:06:42,527 [P712/D2/T9] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2017-12-10 20:06:42,531 [P712/D2/T9] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-12-10 20:06:42,531 [P712/D2/T9] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-12-10 20:06:46,633 [P712/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on DESKTOP-4ECH40O
+ 2017-12-10 20:06:46,659 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-10 20:06:46,672 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2017-12-10 20:06:46,731 [P712/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-10 20:06:46,733 [P712/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-10 20:06:46,738 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:06:46,972 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 233ms)
+ 2017-12-10 20:06:46,972 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-10 20:06:46,974 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-12-10 20:06:47,133 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:06:47,134 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:06:47,134 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-10 20:06:47,134 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-12-10 20:06:47,135 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:06:47,135 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:06:47,135 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-10 20:06:47,136 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2017-12-10 20:06:47,149 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:06:47,149 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:06:47,149 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-10 20:06:47,150 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-12-10 20:06:47,151 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:06:47,151 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:06:47,151 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-10 20:06:47,152 [P712/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-12-10 20:06:49,339 [P712/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2827ms)
+ 2017-12-10 20:06:59,525 [P712/D3/T11] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-12-10 20:06:59,526 [P712/D3/T11] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2017-12-10 20:06:59,526 [P712/D3/T11] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2017-12-10 20:06:59,530 [P712/D3/T11] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-12-10 20:06:59,530 [P712/D3/T11] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-12-10 20:07:12,627 [P712/D2/T12] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: InitializationError
+
+_shutDownMessage=Initialization Error
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.AppDomainShutdownTimerCallback(Object state)
+   at System.Threading.TimerQueueTimer.CallCallbackInContext(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.TimerQueueTimer.CallCallback()
+   at System.Threading.TimerQueueTimer.Fire()
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.TimerQueue.AppDomainTimerCallback()
+ 2017-12-10 20:07:29,619 [P712/D3/T8] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: InitializationError
+
+_shutDownMessage=Initialization Error
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.AppDomainShutdownTimerCallback(Object state)
+   at System.Threading.TimerQueueTimer.CallCallbackInContext(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.TimerQueueTimer.CallCallback()
+   at System.Threading.TimerQueueTimer.Fire()
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.TimerQueue.AppDomainTimerCallback()
+ 2017-12-10 20:21:13,210 [P11540/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on DESKTOP-4ECH40O
+ 2017-12-10 20:21:13,235 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-10 20:21:13,248 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2017-12-10 20:21:13,311 [P11540/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-10 20:21:13,313 [P11540/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-10 20:21:13,315 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:13,659 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 345ms)
+ 2017-12-10 20:21:13,660 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-10 20:21:13,662 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 2ms)
+ 2017-12-10 20:21:13,677 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:13,678 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:13,678 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-10 20:21:13,680 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 1ms)
+ 2017-12-10 20:21:13,680 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:13,680 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:13,681 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-10 20:21:13,683 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2017-12-10 20:21:13,695 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:13,695 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:13,696 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-10 20:21:13,697 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 1ms)
+ 2017-12-10 20:21:13,698 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:13,698 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:13,698 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-10 20:21:13,700 [P11540/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-12-10 20:21:15,184 [P11540/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2058ms)
+ 2017-12-10 20:21:16,813 [P11540/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:23695/umbraco (UmbracoModule request)
+ 2017-12-10 20:21:21,582 [P11540/D2/T12] INFO  Umbraco.Core.Configuration.ClientDependencyConfiguration - Updated version number from 1 to 983093579
+ 2017-12-10 20:21:21,639 [P11540/D2/T12] ERROR Umbraco.Core.Configuration.ClientDependencyConfiguration - Could not clear temp files
+System.UnauthorizedAccessException: Access to the path 'JAHAN-B-9771259c594aaedbbfc552290ba2a9af-map.xml' is denied.
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at System.IO.DirectoryInfo.Delete(Boolean recursive)
+   at Umbraco.Core.Configuration.ClientDependencyConfiguration.ClearTempFiles(HttpContextBase currentHttpContext)
+ 2017-12-10 20:21:21,806 [P11540/D2/T14] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-12-10 20:21:21,807 [P11540/D2/T14] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2017-12-10 20:21:21,807 [P11540/D2/T14] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2017-12-10 20:21:21,811 [P11540/D2/T14] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-12-10 20:21:21,812 [P11540/D2/T14] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-12-10 20:21:22,654 [P11540/D3/T8] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on DESKTOP-4ECH40O
+ 2017-12-10 20:21:22,674 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-10 20:21:22,685 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2017-12-10 20:21:22,725 [P11540/D3/T8] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-10 20:21:22,727 [P11540/D3/T8] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-10 20:21:22,732 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:22,911 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 179ms)
+ 2017-12-10 20:21:22,912 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-10 20:21:22,913 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-12-10 20:21:22,947 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:22,948 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:22,948 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-10 20:21:22,949 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-12-10 20:21:22,949 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:22,949 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:22,950 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-10 20:21:22,951 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2017-12-10 20:21:22,963 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:22,963 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:22,963 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-10 20:21:22,964 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-12-10 20:21:22,965 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:22,965 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:22,965 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-10 20:21:22,967 [P11540/D3/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-12-10 20:21:24,285 [P11540/D3/T8] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1718ms)
+ 2017-12-10 20:21:25,743 [P11540/D3/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:23695/umbraco (UmbracoModule request)
+ 2017-12-10 20:21:28,001 [P11540/D3/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:28,001 [P11540/D3/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:28,001 [P11540/D3/T12] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-10 20:21:28,009 [P11540/D3/T12] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 7ms)
+ 2017-12-10 20:21:28,476 [P11540/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:28,476 [P11540/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:28,477 [P11540/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-12-10 20:21:28,480 [P11540/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 3ms)
+ 2017-12-10 20:21:28,659 [P11540/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:28,659 [P11540/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:28,659 [P11540/D3/T16] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-10 20:21:28,661 [P11540/D3/T16] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 2ms)
+ 2017-12-10 20:21:36,473 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (63f52b12).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:36,863 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (ff8dc5ae).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:36,949 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (8d9220b1).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:37,057 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (c4a9afbc).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:37,130 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (71d02370).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:37,218 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (ad03b7f3).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:37,321 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (30ceb5c9).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:37,416 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (9c8fbf2d).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:37,537 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (1f379034).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:37,710 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (ad738862).
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'createDate'.
+Invalid column name 'updateDate'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 266
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass2_0.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.Update(String tableName, String primaryKeyName, Object poco, Object primaryKeyValue, IEnumerable`1 columns)
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:207,State:1,Class:16
+ 2017-12-10 20:21:37,715 [P11540/D3/T12] WARN  Umbraco.Core.Services.UserService - An error occurred attempting to save a user instance during upgrade, normally this warning can be ignored. Exception: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'createDate'.
+Invalid column name 'updateDate'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 266
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass2_0.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.Update(String tableName, String primaryKeyName, Object poco, Object primaryKeyValue, IEnumerable`1 columns)
+   at Umbraco.Core.Persistence.Database.Update(Object poco, Object primaryKeyValue, IEnumerable`1 columns)
+   at Umbraco.Core.Persistence.Repositories.UserRepository.PersistUpdatedItem(IUser entity)
+   at Umbraco.Core.Cache.DefaultRepositoryCachePolicy`2.Update(TEntity entity, Action`1 persistUpdated)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.PersistUpdatedItem(IEntity entity)
+   at Umbraco.Core.Persistence.UnitOfWork.ScopeUnitOfWork.Commit(Action`1 transactionCompleting)
+   at Umbraco.Core.Persistence.UnitOfWork.ScopeUnitOfWork.Commit()
+   at Umbraco.Core.Services.UserService.Save(IUser entity, Boolean raiseEvents)
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:207,State:1,Class:16
+ 2017-12-10 20:21:37,718 [P11540/D3/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username s.r.alem@gmail.com from IP address ::1
+ 2017-12-10 20:21:37,720 [P11540/D3/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: s.r.alem@gmail.com logged in from IP address ::1
+ 2017-12-10 20:21:37,735 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (56174691).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:38,567 [P11540/D3/T12] INFO  Umbraco.Core.Configuration.ClientDependencyConfiguration - Updated version number from 983093579 to 884491960
+ 2017-12-10 20:21:38,609 [P11540/D3/T16] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-12-10 20:21:38,609 [P11540/D3/T16] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2017-12-10 20:21:38,610 [P11540/D3/T16] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2017-12-10 20:21:38,614 [P11540/D3/T12] ERROR Umbraco.Core.Configuration.ClientDependencyConfiguration - Could not clear temp files
+System.UnauthorizedAccessException: Access to the path 'JAHAN-B-9771259c594aaedbbfc552290ba2a9af-map.xml' is denied.
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at System.IO.DirectoryInfo.Delete(Boolean recursive)
+   at Umbraco.Core.Configuration.ClientDependencyConfiguration.ClearTempFiles(HttpContextBase currentHttpContext)
+ 2017-12-10 20:21:38,632 [P11540/D3/T12] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (582990d8).
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'umbracoUser2UserGroup'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ClientConnectionId:6505c180-caba-43bd-9044-cbd0e645740b
+Error Number:208,State:1,Class:16
+ 2017-12-10 20:21:38,637 [P11540/D3/T16] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-12-10 20:21:38,652 [P11540/D3/T16] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-12-10 20:21:43,312 [P11540/D4/T8] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on DESKTOP-4ECH40O
+ 2017-12-10 20:21:43,337 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-10 20:21:43,348 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2017-12-10 20:21:43,390 [P11540/D4/T8] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-10 20:21:43,391 [P11540/D4/T8] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-10 20:21:43,393 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:43,620 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 226ms)
+ 2017-12-10 20:21:43,620 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-10 20:21:43,621 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-12-10 20:21:43,652 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:43,653 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:43,653 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-10 20:21:43,654 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-12-10 20:21:43,654 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:43,655 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:43,655 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-10 20:21:43,656 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2017-12-10 20:21:43,669 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:43,669 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:43,670 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-10 20:21:43,670 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-12-10 20:21:43,671 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:43,671 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:43,671 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-10 20:21:43,672 [P11540/D4/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-12-10 20:21:45,072 [P11540/D4/T8] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1865ms)
+ 2017-12-10 20:21:47,411 [P11540/D4/T15] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:23695/umbraco (UmbracoModule request)
+ 2017-12-10 20:21:49,604 [P11540/D4/T17] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 20:21:49,614 [P11540/D4/T17] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:21:49,615 [P11540/D4/T17] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:21:49,615 [P11540/D4/T17] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-10 20:21:49,622 [P11540/D4/T17] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 7ms)
+ 2017-12-10 20:21:51,829 [P11540/D2/T15] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-12-10 20:22:08,722 [P11540/D3/T9] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-12-10 20:22:21,403 [P11540/D4/T9] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: Permissions
+ 2017-12-10 20:22:21,413 [P11540/D4/T9] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 9ms)
+ 2017-12-10 20:22:21,452 [P11540/D4/T9] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: Upgrade
+ 2017-12-10 20:22:21,453 [P11540/D4/T9] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 0ms)
+ 2017-12-10 20:22:21,480 [P11540/D4/T14] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: DatabaseInstall
+ 2017-12-10 20:22:21,482 [P11540/D4/T14] INFO  Umbraco.Core.DatabaseContext - Database configuration status: Started
+ 2017-12-10 20:22:21,483 [P11540/D4/T14] INFO  Umbraco.Core.DatabaseContext - Database requires upgrade
+ 2017-12-10 20:22:21,484 [P11540/D4/T14] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 3ms)
+ 2017-12-10 20:22:21,508 [P11540/D4/T9] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: DatabaseUpgrade
+ 2017-12-10 20:22:21,509 [P11540/D4/T9] INFO  Umbraco.Web.Install.InstallSteps.DatabaseUpgradeStep - Running 'Upgrade' service
+ 2017-12-10 20:22:21,511 [P11540/D4/T9] INFO  Umbraco.Core.DatabaseContext - Database upgrade started
+ 2017-12-10 20:22:21,532 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Initializing database migrations
+ 2017-12-10 20:22:21,533 [P11540/D4/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:21,534 [P11540/D4/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:21,534 [P11540/D4/T9] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Persistence.Migrations.IMigration
+ 2017-12-10 20:22:21,539 [P11540/D4/T9] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Persistence.Migrations.IMigration (took 5ms)
+ 2017-12-10 20:22:21,600 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddIndexesToUmbracoRelationTables' to context
+ 2017-12-10 20:22:21,612 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddIndexToUmbracoNodePath' to context
+ 2017-12-10 20:22:21,626 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddIndexToUser2NodePermission' to context
+ 2017-12-10 20:22:21,653 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddRelationTypeUniqueIdColumn' to context
+ 2017-12-10 20:22:21,672 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddMacroUniqueIdColumn' to context
+ 2017-12-10 20:22:21,673 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'NormalizeTemplateGuids' to context
+ 2017-12-10 20:22:21,687 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'UpdateUniqueIndexOnCmsPropertyData' to context
+ 2017-12-10 20:22:21,719 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'RemoveUmbracoDeployTables' to context
+ 2017-12-10 20:22:21,719 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'ReduceLoginNameColumnsSize' to context
+ 2017-12-10 20:22:21,720 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddIndexToCmsMemberLoginName' to context
+ 2017-12-10 20:22:21,735 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddLockTable' to context
+ 2017-12-10 20:22:21,736 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddLockObjects' to context
+ 2017-12-10 20:22:21,762 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'UpdateUserTables' to context
+ 2017-12-10 20:22:22,059 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddUserGroupTables' to context
+ 2017-12-10 20:22:22,091 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddUserStartNodeTable' to context
+ 2017-12-10 20:22:22,092 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'ReduceDictionaryKeyColumnsSize' to context
+ 2017-12-10 20:22:22,093 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddIndexToDictionaryKeyColumn' to context
+ 2017-12-10 20:22:22,094 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'EnsureContentTemplatePermissions' to context
+ 2017-12-10 20:22:22,208 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoRelation_parentChildType] ON [umbracoRelation] ([parentId],[childId],[relType])
+
+ 2017-12-10 20:22:22,535 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 3: CREATE NONCLUSTERED INDEX [IX_umbracoRelationType_alias] ON [umbracoRelationType] ([alias])
+
+ 2017-12-10 20:22:22,579 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 4: CREATE NONCLUSTERED INDEX [IX_umbracoRelationType_name] ON [umbracoRelationType] ([name])
+
+ 2017-12-10 20:22:22,591 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 5: CREATE NONCLUSTERED INDEX [IX_umbracoNodePath] ON [umbracoNode] ([path])
+
+ 2017-12-10 20:22:22,616 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 6: CREATE NONCLUSTERED INDEX [IX_umbracoUser2NodePermission_nodeId] ON [umbracoUser2NodePermission] ([nodeId])
+
+ 2017-12-10 20:22:22,726 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 7: ALTER TABLE [umbracoRelationType] ADD [typeUniqueId] UniqueIdentifier NULL
+
+ 2017-12-10 20:22:22,948 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 9: ALTER TABLE [umbracoRelationType] ALTER COLUMN [typeUniqueId] UniqueIdentifier NOT NULL
+
+ 2017-12-10 20:22:23,014 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 10: CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoRelationType_UniqueId] ON [umbracoRelationType] ([typeUniqueId])
+
+ 2017-12-10 20:22:23,026 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 11: ALTER TABLE [cmsMacro] ADD [uniqueId] UniqueIdentifier NULL
+
+ 2017-12-10 20:22:23,102 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 13: ALTER TABLE [cmsMacro] ALTER COLUMN [uniqueId] UniqueIdentifier NOT NULL
+
+ 2017-12-10 20:22:23,149 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 14: CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMacro_UniqueId] ON [cmsMacro] ([uniqueId])
+
+ 2017-12-10 20:22:23,176 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 15: ALTER TABLE [cmsMacroProperty] ADD [uniquePropertyId] UniqueIdentifier NULL
+
+ 2017-12-10 20:22:23,251 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 17: ALTER TABLE [cmsMacroProperty] ALTER COLUMN [uniquePropertyId] UniqueIdentifier NOT NULL
+
+ 2017-12-10 20:22:23,266 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 18: CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMacroProperty_UniquePropertyId] ON [cmsMacroProperty] ([uniquePropertyId])
+
+ 2017-12-10 20:22:23,490 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 20: DROP INDEX [IX_cmsPropertyData] ON [cmsPropertyData]
+
+ 2017-12-10 20:22:23,563 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 21: DROP TABLE [umbracoDeployDependency]
+
+ 2017-12-10 20:22:23,588 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 22: DROP TABLE [umbracoDeployChecksum]
+
+ 2017-12-10 20:22:23,683 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 24: CREATE NONCLUSTERED INDEX [IX_cmsMember_LoginName] ON [cmsMember] ([LoginName])
+
+ 2017-12-10 20:22:23,717 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 25: CREATE TABLE [umbracoLock] ([id] INTEGER NOT NULL,
+[value] INTEGER NOT NULL,
+[name] NVARCHAR(64) NOT NULL)
+
+ 2017-12-10 20:22:23,761 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 26: ALTER TABLE [umbracoLock] ADD CONSTRAINT [PK_umbracoLock] PRIMARY KEY CLUSTERED ([id])
+
+ 2017-12-10 20:22:23,893 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 28: ALTER TABLE [umbracoUser] ADD [createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoUser_createDate] DEFAULT (GETDATE())
+
+ 2017-12-10 20:22:23,944 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 29: ALTER TABLE [umbracoUser] ADD [updateDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoUser_updateDate] DEFAULT (GETDATE())
+
+ 2017-12-10 20:22:23,970 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 30: ALTER TABLE [umbracoUser] ADD [emailConfirmedDate] DATETIME NULL
+
+ 2017-12-10 20:22:23,986 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 31: ALTER TABLE [umbracoUser] ADD [invitedDate] DATETIME NULL
+
+ 2017-12-10 20:22:24,001 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 32: ALTER TABLE [umbracoUser] ADD [avatar] NVARCHAR(500) NULL
+
+ 2017-12-10 20:22:24,015 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 33: ALTER TABLE [umbracoUser] ADD [passwordConfig] NVARCHAR(500) NULL
+
+ 2017-12-10 20:22:24,031 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Executing sql statement 34: UPDATE umbracoUser SET passwordConfig = '{"hashAlgorithm":"HMACSHA256"}'
+</format><args>{}</args></log4net.Error>
+ 2017-12-10 20:22:24,106 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 35: CREATE TABLE [umbracoUserGroup] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userGroupAlias] NVARCHAR(200) NOT NULL,
+[userGroupName] NVARCHAR(200) NOT NULL,
+[userGroupDefaultPermissions] NVARCHAR(50) NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoUserGroup_createDate] DEFAULT (GETDATE()),
+[updateDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoUserGroup_updateDate] DEFAULT (GETDATE()),
+[icon] NVARCHAR(255) NULL,
+[startContentId] INTEGER NULL,
+[startMediaId] INTEGER NULL)
+
+ 2017-12-10 20:22:24,135 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 36: ALTER TABLE [umbracoUserGroup] ADD CONSTRAINT [PK_umbracoUserGroup] PRIMARY KEY CLUSTERED ([id])
+
+ 2017-12-10 20:22:24,147 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 37: ALTER TABLE [umbracoUserGroup] ADD CONSTRAINT [FK_startContentId_umbracoNode_id] FOREIGN KEY ([startContentId]) REFERENCES [umbracoNode] ([id])
+
+ 2017-12-10 20:22:24,158 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 38: ALTER TABLE [umbracoUserGroup] ADD CONSTRAINT [FK_startMediaId_umbracoNode_id] FOREIGN KEY ([startMediaId]) REFERENCES [umbracoNode] ([id])
+
+ 2017-12-10 20:22:24,172 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 39: CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoUserGroup_userGroupAlias] ON [umbracoUserGroup] ([userGroupAlias])
+
+ 2017-12-10 20:22:24,187 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 40: CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoUserGroup_userGroupName] ON [umbracoUserGroup] ([userGroupName])
+
+ 2017-12-10 20:22:24,196 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 41: CREATE TABLE [umbracoUser2UserGroup] ([userId] INTEGER NOT NULL,
+[userGroupId] INTEGER NOT NULL)
+
+ 2017-12-10 20:22:24,315 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 42: ALTER TABLE [umbracoUser2UserGroup] ADD CONSTRAINT [PK_user2userGroup] PRIMARY KEY CLUSTERED ([userId], [userGroupId])
+
+ 2017-12-10 20:22:24,340 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 43: ALTER TABLE [umbracoUser2UserGroup] ADD CONSTRAINT [FK_umbracoUser2UserGroup_umbracoUser_id] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+
+ 2017-12-10 20:22:24,363 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 44: ALTER TABLE [umbracoUser2UserGroup] ADD CONSTRAINT [FK_umbracoUser2UserGroup_umbracoUserGroup_id] FOREIGN KEY ([userGroupId]) REFERENCES [umbracoUserGroup] ([id])
+
+ 2017-12-10 20:22:24,378 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 45: CREATE TABLE [umbracoUserGroup2App] ([userGroupId] INTEGER NOT NULL,
+[app] NVARCHAR(50) NOT NULL)
+
+ 2017-12-10 20:22:24,392 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 46: ALTER TABLE [umbracoUserGroup2App] ADD CONSTRAINT [PK_userGroup2App] PRIMARY KEY CLUSTERED ([userGroupId], [app])
+
+ 2017-12-10 20:22:24,404 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 47: ALTER TABLE [umbracoUserGroup2App] ADD CONSTRAINT [FK_umbracoUserGroup2App_umbracoUserGroup_id] FOREIGN KEY ([userGroupId]) REFERENCES [umbracoUserGroup] ([id])
+
+ 2017-12-10 20:22:24,415 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 48: CREATE TABLE [umbracoUserGroup2NodePermission] ([userGroupId] INTEGER NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[permission] NVARCHAR(255) NOT NULL)
+
+ 2017-12-10 20:22:24,425 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 49: ALTER TABLE [umbracoUserGroup2NodePermission] ADD CONSTRAINT [PK_umbracoUserGroup2NodePermission] PRIMARY KEY CLUSTERED ([userGroupId], [nodeId], [permission])
+
+ 2017-12-10 20:22:24,436 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 50: ALTER TABLE [umbracoUserGroup2NodePermission] ADD CONSTRAINT [FK_umbracoUserGroup2NodePermission_umbracoUserGroup_id] FOREIGN KEY ([userGroupId]) REFERENCES [umbracoUserGroup] ([id])
+
+ 2017-12-10 20:22:24,446 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 51: ALTER TABLE [umbracoUserGroup2NodePermission] ADD CONSTRAINT [FK_umbracoUserGroup2NodePermission_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+
+ 2017-12-10 20:22:24,457 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 52: CREATE NONCLUSTERED INDEX [IX_umbracoUser2NodePermission_nodeId] ON [umbracoUserGroup2NodePermission] ([nodeId])
+
+ 2017-12-10 20:22:24,467 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 53: INSERT INTO umbracoUserGroup(userGroupAlias, userGroupName)
+SELECT 'permissionGroupFor' + userLogin, 'Migrated Permission Group for ' + userLogin
+FROM umbracoUser
+WHERE (id IN (
+SELECT userid
+FROM umbracoUser2NodePermission
+))
+AND id > 0
+
+ 2017-12-10 20:22:24,481 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 54: INSERT INTO umbracoUser2UserGroup (userId, userGroupId)
+SELECT u.id, ug.id
+FROM umbracoUser u
+INNER JOIN umbracoUserGroup ug ON ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'permissionGroupFor' + userLogin COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,493 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 55: INSERT INTO umbracoUserGroup2NodePermission (userGroupId,nodeId,permission)
+SELECT ug.id, nodeId, permission
+FROM umbracoUserGroup ug
+INNER JOIN umbracoUser2UserGroup u2ug ON u2ug.userGroupId = ug.id
+INNER JOIN umbracoUser u ON u.id = u2ug.userId
+INNER JOIN umbracoUser2NodePermission u2np ON u2np.userId = u.id
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT NOT IN (
+SELECT userTypeAlias COLLATE DATABASE_DEFAULT
+FROM umbracoUserType
+)
+
+ 2017-12-10 20:22:24,538 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 56: INSERT INTO umbracoUserGroup2app (userGroupId,app)
+SELECT ug.id, app
+FROM umbracoUserGroup ug
+INNER JOIN umbracoUser2UserGroup u2ug ON u2ug.userGroupId = ug.id
+INNER JOIN umbracoUser u ON u.id = u2ug.userId
+INNER JOIN umbracoUser2app u2a ON u2a.[user] = u.id
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT NOT IN (
+SELECT userTypeAlias COLLATE DATABASE_DEFAULT
+FROM umbracoUserType
+)
+
+ 2017-12-10 20:22:24,562 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 57: INSERT INTO umbracoUserGroup (userGroupAlias, userGroupName, userGroupDefaultPermissions)
+SELECT userTypeAlias, userTypeName, userTypeDefaultPermissions
+FROM umbracoUserType
+
+ 2017-12-10 20:22:24,573 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 58: INSERT INTO umbracoUser2UserGroup (userId, userGroupId)
+SELECT u.id, ug.id
+FROM umbracoUser u
+INNER JOIN umbracoUserType ut ON ut.id = u.userType
+INNER JOIN umbracoUserGroup ug ON ug.userGroupAlias COLLATE DATABASE_DEFAULT = ut.userTypeAlias COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,589 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 59: INSERT INTO umbracoUserGroup2app (userGroupId,app)
+SELECT ug.id, app
+FROM umbracoUserGroup ug
+INNER JOIN umbracoUser2UserGroup u2ug ON u2ug.userGroupId = ug.id
+INNER JOIN umbracoUser u ON u.id = u2ug.userId
+INNER JOIN umbracoUser2app u2a ON u2a.[user] = u.id
+WHERE u.id = 0
+
+ 2017-12-10 20:22:24,604 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 60: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'content' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'writer' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,619 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 61: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'content' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'editor' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,630 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 62: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'media' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'editor' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,640 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 63: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'translation' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'translator' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,654 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 64: INSERT INTO [umbracoUserGroup] ([userGroupAlias],[userGroupName]) VALUES ('MigratedSectionAccessGroup_1','Migrated Section Access Group 1');
+
+ 2017-12-10 20:22:24,666 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 65: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'content' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_1' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,676 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 66: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'developer' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_1' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,687 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 67: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'forms' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_1' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,700 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 68: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'media' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_1' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,721 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 69: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'member' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_1' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,741 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 70: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'settings' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_1' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,776 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 71: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'users' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_1' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,789 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 72: INSERT INTO umbracoUser2UserGroup (userId, userGroupId)
+SELECT 0, ug.id
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_1' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,811 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 73: INSERT INTO [umbracoUserGroup] ([userGroupAlias],[userGroupName]) VALUES ('MigratedSectionAccessGroup_2','Migrated Section Access Group 2');
+
+ 2017-12-10 20:22:24,822 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 74: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'content' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_2' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,833 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 75: INSERT INTO umbracoUserGroup2app (userGroupId, app)
+SELECT ug.id, 'media' as app
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_2' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,844 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 76: INSERT INTO umbracoUser2UserGroup (userId, userGroupId)
+SELECT 1, ug.id
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_2' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,855 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 77: INSERT INTO umbracoUser2UserGroup (userId, userGroupId)
+SELECT 2, ug.id
+FROM umbracoUserGroup ug
+WHERE ug.userGroupAlias COLLATE DATABASE_DEFAULT = 'MigratedSectionAccessGroup_2' COLLATE DATABASE_DEFAULT
+
+ 2017-12-10 20:22:24,867 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 78: UPDATE umbracoUserGroup SET userGroupName = 'Writers' WHERE userGroupAlias = 'writer'
+
+ 2017-12-10 20:22:24,878 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 79: UPDATE umbracoUserGroup SET userGroupName = 'Translators' WHERE userGroupAlias = 'translator'
+
+ 2017-12-10 20:22:24,887 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 80: UPDATE umbracoUserGroup SET startContentId = -1 WHERE userGroupAlias = 'editor'
+
+ 2017-12-10 20:22:24,898 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 81: UPDATE umbracoUserGroup SET startMediaId = -1 WHERE userGroupAlias = 'editor'
+
+ 2017-12-10 20:22:24,910 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 82: UPDATE umbracoUserGroup SET startContentId = -1 WHERE userGroupAlias = 'writer'
+
+ 2017-12-10 20:22:24,920 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 83: UPDATE umbracoUserGroup SET startMediaId = -1 WHERE userGroupAlias = 'writer'
+
+ 2017-12-10 20:22:24,930 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 84: UPDATE umbracoUserGroup SET startContentId = -1 WHERE userGroupAlias = 'translator'
+
+ 2017-12-10 20:22:24,971 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 85: UPDATE umbracoUserGroup SET startMediaId = -1 WHERE userGroupAlias = 'translator'
+
+ 2017-12-10 20:22:24,981 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 86: UPDATE umbracoUserGroup SET startContentId = -1 WHERE userGroupAlias = 'admin'
+
+ 2017-12-10 20:22:24,990 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 87: UPDATE umbracoUserGroup SET startMediaId = -1 WHERE userGroupAlias = 'admin'
+
+ 2017-12-10 20:22:25,006 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 88: DROP TABLE [umbracoUser2App]
+
+ 2017-12-10 20:22:25,027 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 89: DROP TABLE [umbracoUser2NodePermission]
+
+ 2017-12-10 20:22:25,053 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 90: ALTER TABLE [umbracoUser] DROP CONSTRAINT [FK_umbracoUser_umbracoUserType_id]
+
+ 2017-12-10 20:22:25,076 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 91: ALTER TABLE [umbracoUser] DROP COLUMN [userType]
+
+ 2017-12-10 20:22:25,122 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 92: DROP TABLE [umbracoUserType]
+
+ 2017-12-10 20:22:25,147 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 93: UPDATE umbracoUserGroup SET icon = '' WHERE userGroupAlias = 'admin'
+
+ 2017-12-10 20:22:25,164 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 94: UPDATE umbracoUserGroup SET icon = 'icon-edit' WHERE userGroupAlias = 'writer'
+
+ 2017-12-10 20:22:25,177 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 95: UPDATE umbracoUserGroup SET icon = 'icon-tools' WHERE userGroupAlias = 'editor'
+
+ 2017-12-10 20:22:25,191 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 96: UPDATE umbracoUserGroup SET icon = 'icon-globe' WHERE userGroupAlias = 'translator'
+
+ 2017-12-10 20:22:25,205 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 97: CREATE TABLE [umbracoUserStartNode] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userId] INTEGER NOT NULL,
+[startNode] INTEGER NOT NULL,
+[startNodeType] INTEGER NOT NULL)
+
+ 2017-12-10 20:22:25,219 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 98: ALTER TABLE [umbracoUserStartNode] ADD CONSTRAINT [PK_userStartNode] PRIMARY KEY CLUSTERED ([id])
+
+ 2017-12-10 20:22:25,236 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 99: ALTER TABLE [umbracoUserStartNode] ADD CONSTRAINT [FK_umbracoUserStartNode_umbracoUser_id] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+
+ 2017-12-10 20:22:25,251 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 100: ALTER TABLE [umbracoUserStartNode] ADD CONSTRAINT [FK_umbracoUserStartNode_umbracoNode_id] FOREIGN KEY ([startNode]) REFERENCES [umbracoNode] ([id])
+
+ 2017-12-10 20:22:25,266 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 101: CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoUserStartNode_startNodeType] ON [umbracoUserStartNode] ([startNodeType],[startNode],[userId])
+
+ 2017-12-10 20:22:25,351 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 102: INSERT INTO umbracoUserStartNode (userId, startNode, startNodeType)
+SELECT id, startStructureID, 1
+FROM umbracoUser
+WHERE startStructureID IS NOT NULL AND startStructureID > 0 AND startStructureID IN (SELECT id FROM umbracoNode WHERE nodeObjectType='C66BA18E-EAF3-4CFF-8A22-41B16D66A972')
+
+ 2017-12-10 20:22:25,378 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 103: INSERT INTO umbracoUserStartNode (userId, startNode, startNodeType)
+SELECT id, startMediaID, 2
+FROM umbracoUser
+WHERE startMediaID IS NOT NULL AND startMediaID > 0 AND startMediaID IN (SELECT id FROM umbracoNode WHERE nodeObjectType='B796F64C-1F99-4FFB-B886-4BF4BC011A9C')
+
+ 2017-12-10 20:22:25,396 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 104: ALTER TABLE [umbracoUser] DROP COLUMN [startStructureID]
+
+ 2017-12-10 20:22:25,406 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 105: ALTER TABLE [umbracoUser] DROP COLUMN [startMediaID]
+
+ 2017-12-10 20:22:25,528 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 106: ALTER TABLE [cmsDictionary] ALTER COLUMN [key] NVARCHAR(450) NOT NULL
+
+ 2017-12-10 20:22:25,569 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 107: CREATE NONCLUSTERED INDEX [IX_cmsDictionary_key] ON [cmsDictionary] ([key])
+
+ 2017-12-10 20:22:25,604 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 108: UPDATE [umbracoUserGroup] SET [userGroupDefaultPermissions] = 'CADMOSKTPIURZ:5F7ï' WHERE [id] = 1
+
+ 2017-12-10 20:22:25,615 [P11540/D4/T9] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 108: UPDATE [umbracoUserGroup] SET [userGroupDefaultPermissions] = 'CADMOSKTPUZ:5Fï' WHERE [id] = 3
+
+ 2017-12-10 20:22:25,682 [P11540/D4/T9] INFO  Umbraco.Core.DatabaseContext - Database configuration status: <p>Upgrade completed!</p>
+ 2017-12-10 20:22:25,684 [P11540/D4/T9] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 4177ms)
+ 2017-12-10 20:22:25,705 [P11540/D4/T11] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: UmbracoVersion
+ 2017-12-10 20:22:25,716 [P11540/D4/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:25,717 [P11540/D4/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:25,717 [P11540/D4/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-12-10 20:22:25,719 [P11540/D4/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 1ms)
+ 2017-12-10 20:22:25,754 [P11540/D4/T11] INFO  umbraco.content - Load Xml from file...
+ 2017-12-10 20:22:25,759 [P11540/D4/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2017-12-10 20:22:25,772 [P11540/D4/T11] INFO  umbraco.content - Loading content from database...
+ 2017-12-10 20:22:26,682 [P11540/D4/T15] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-12-10 20:22:26,719 [P11540/D4/T22] INFO  umbraco.content - Save Xml to file...
+ 2017-12-10 20:22:26,723 [P11540/D4/T22] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-10 20:22:26,739 [P11540/D4/T15] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-12-10 20:22:26,815 [P11540/D4/T15] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-12-10 20:22:26,816 [P11540/D4/T15] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2017-12-10 20:22:26,817 [P11540/D4/T15] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2017-12-10 20:22:27,242 [P11540/D4/T11] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 1536ms)
+ 2017-12-10 20:22:28,422 [P11540/D5/T8] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.6 application starting on DESKTOP-4ECH40O
+ 2017-12-10 20:22:28,437 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-12-10 20:22:28,448 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2017-12-10 20:22:28,464 [P11540/D5/T8] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-12-10 20:22:28,464 [P11540/D5/T8] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-12-10 20:22:28,466 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:28,658 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 191ms)
+ 2017-12-10 20:22:28,658 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-12-10 20:22:28,660 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-12-10 20:22:28,690 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:28,691 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:28,691 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-12-10 20:22:28,691 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-12-10 20:22:28,692 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:28,692 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:28,693 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-12-10 20:22:28,694 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2017-12-10 20:22:28,699 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:28,700 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:28,700 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-12-10 20:22:28,700 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-12-10 20:22:28,701 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:28,701 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:28,701 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-12-10 20:22:28,703 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2017-12-10 20:22:29,671 [P11540/D5/T8] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-12-10 20:22:29,926 [P11540/D5/T8] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-12-10 20:22:29,963 [P11540/D5/T8] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-12-10 20:22:29,982 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:29,983 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:29,983 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-12-10 20:22:29,983 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2017-12-10 20:22:30,330 [P11540/D5/T8] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
+ 2017-12-10 20:22:30,404 [P11540/D5/T8] INFO  umbraco.content - Load Xml from file...
+ 2017-12-10 20:22:30,407 [P11540/D5/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2017-12-10 20:22:30,411 [P11540/D5/T8] INFO  umbraco.content - Loading content from database...
+ 2017-12-10 20:22:31,163 [P11540/D5/T8] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-12-10 20:22:31,165 [P11540/D5/T8] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-12-10 20:22:31,174 [P11540/D5/T8] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2813ms)
+ 2017-12-10 20:22:31,175 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-12-10 20:22:31,272 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - member, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-12-10 20:22:32,086 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - member, took 814ms, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-12-10 20:22:32,087 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2017-12-10 20:22:32,094 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=InternalIndexer, NodeId=-1
+ 2017-12-10 20:22:32,534 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:32,534 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:32,535 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-12-10 20:22:32,540 [P11540/D5/T8] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 5ms)
+ 2017-12-10 20:22:32,774 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 680ms, Provider=InternalIndexer, NodeId=-1
+ 2017-12-10 20:22:32,774 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=InternalIndexer, NodeId=-1
+ 2017-12-10 20:22:32,986 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 210ms, Provider=InternalIndexer, NodeId=-1
+ 2017-12-10 20:22:32,986 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2017-12-10 20:22:32,990 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=ExternalIndexer, NodeId=-1
+ 2017-12-10 20:22:33,090 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 99ms, Provider=ExternalIndexer, NodeId=-1
+ 2017-12-10 20:22:33,091 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=ExternalIndexer, NodeId=-1
+ 2017-12-10 20:22:33,138 [P11540/D5/T8] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 46ms, Provider=ExternalIndexer, NodeId=-1
+ 2017-12-10 20:22:34,508 [P11540/D5/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:23695/umbraco (UmbracoModule request)
+ 2017-12-10 20:22:34,956 [P11540/D5/T14] INFO  umbraco.content - Save Xml to file...
+ 2017-12-10 20:22:34,959 [P11540/D5/T14] INFO  umbraco.content - Saved Xml to file.
+ 2017-12-10 20:22:38,446 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:38,446 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:38,446 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-10 20:22:38,450 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 3ms)
+ 2017-12-10 20:22:38,666 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:38,667 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:38,667 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-12-10 20:22:38,669 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 2ms)
+ 2017-12-10 20:22:40,683 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:40,684 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:40,684 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-12-10 20:22:40,686 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 1ms)
+ 2017-12-10 20:22:40,700 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:40,700 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:40,700 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-12-10 20:22:40,701 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-12-10 20:22:40,704 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:40,704 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:40,704 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-12-10 20:22:40,708 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 4ms)
+ 2017-12-10 20:22:40,751 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-12-10 20:22:40,752 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-12-10 20:22:40,752 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-12-10 20:22:40,754 [P11540/D5/T11] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 2ms)
+ 2017-12-10 20:22:41,081 [P11540/D5/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username s.r.alem@gmail.com from IP address ::1
+ 2017-12-10 20:22:56,852 [P11540/D4/T15] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.Configuration.WebConfigurationHostFileChange.OnFileChanged(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-12-10 20:23:35,202 [P11540/D5/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-12-09 20:23:35

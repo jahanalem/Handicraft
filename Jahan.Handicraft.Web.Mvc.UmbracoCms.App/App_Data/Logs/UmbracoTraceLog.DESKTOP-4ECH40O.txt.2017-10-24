@@ -1,0 +1,301 @@
+﻿ 2017-10-24 22:00:30,198 [P2568/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-4ECH40O
+ 2017-10-24 22:00:30,260 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-10-24 22:00:30,276 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2017-10-24 22:00:30,573 [P2568/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-10-24 22:00:30,573 [P2568/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-10-24 22:00:30,573 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-10-24 22:00:31,918 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 1334ms)
+ 2017-10-24 22:00:32,315 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-10-24 22:00:32,315 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-10-24 22:00:32,315 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-10-24 22:00:32,315 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-10-24 22:00:32,331 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-10-24 22:00:32,331 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2017-10-24 22:00:32,331 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-10-24 22:00:32,518 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 185ms)
+ 2017-10-24 22:00:32,701 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-10-24 22:00:32,701 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-10-24 22:00:32,701 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-10-24 22:00:32,701 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-10-24 22:00:34,998 [P2568/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-24 22:00:36,401 [P2568/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-24 22:00:36,589 [P2568/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-10-24 22:00:36,605 [P2568/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-10-24 22:00:36,659 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-10-24 22:00:36,660 [P2568/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-10-24 22:00:37,649 [P2568/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-10-24 22:00:37,868 [P2568/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-10-24 22:00:37,868 [P2568/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-24 22:00:38,305 [P2568/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 8359ms)
+ 2017-10-24 22:00:47,508 [P2568/D2/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:23695/umbraco (UmbracoModule request)
+ 2017-10-24 22:00:49,206 [P2568/D2/T12] INFO  umbraco.content - Load Xml from file...
+ 2017-10-24 22:00:49,222 [P2568/D2/T12] INFO  umbraco.content - Loaded Xml from file.
+ 2017-10-24 22:00:50,909 [P2568/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-10-24 22:00:50,925 [P2568/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-10-24 22:00:55,091 [P2568/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:00:55,091 [P2568/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:00:55,229 [P2568/D2/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:00:55,229 [P2568/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:00:57,856 [P2568/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:00:59,863 [P2568/D2/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:01:00,222 [P2568/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:01:00,253 [P2568/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:01:00,300 [P2568/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:01:49,371 [P2568/D2/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-23 22:01:49
+ 2017-10-24 22:02:45,180 [P2568/D2/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username s.r.alem@gmail.com from IP address ::1
+ 2017-10-24 22:02:45,180 [P2568/D2/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: s.r.alem@gmail.com logged in from IP address ::1
+ 2017-10-24 22:02:45,461 [P2568/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-24 22:02:45,492 [P2568/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 38ms)
+ 2017-10-24 22:02:45,805 [P2568/D2/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-10-24 22:02:45,821 [P2568/D2/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 19ms)
+ 2017-10-24 22:02:45,836 [P2568/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-10-24 22:02:45,852 [P2568/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 22ms)
+ 2017-10-24 22:02:45,867 [P2568/D2/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-24 22:02:45,867 [P2568/D2/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-24 22:02:45,867 [P2568/D2/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-10-24 22:02:45,883 [P2568/D2/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 14ms)
+ 2017-10-24 22:03:26,700 [P2568/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-24 22:03:26,700 [P2568/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-24 22:03:49,275 [P2568/D2/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test' with Id '0' has been published.
+ 2017-10-24 22:03:50,714 [P2568/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-10-24 22:03:50,745 [P2568/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 29ms)
+ 2017-10-24 22:03:54,831 [P2568/D2/T21] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:03:54,862 [P2568/D2/T21] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:05:35,486 [P2568/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (1) - H377' with Id '0' has been published.
+ 2017-10-24 22:05:40,081 [P2568/D2/T51] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:05:40,096 [P2568/D2/T51] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:05:44,986 [P2568/D2/T66] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:45,017 [P2568/D2/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:45,017 [P2568/D2/T67] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:45,019 [P2568/D2/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:46,422 [P2568/D2/T56] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:46,628 [P2568/D2/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:46,691 [P2568/D2/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:46,692 [P2568/D2/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:46,728 [P2568/D2/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:49,791 [P2568/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:49,825 [P2568/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:49,852 [P2568/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:49,884 [P2568/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:49,950 [P2568/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:50,147 [P2568/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:50,176 [P2568/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:50,200 [P2568/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:05:50,230 [P2568/D2/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:06:35,809 [P2568/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (2) - H253' with Id '0' has been published.
+ 2017-10-24 22:06:40,360 [P2568/D2/T33] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:06:40,391 [P2568/D2/T33] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:07:18,165 [P2568/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (3) - H270' with Id '0' has been published.
+ 2017-10-24 22:07:22,696 [P2568/D2/T58] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:07:22,727 [P2568/D2/T58] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:08:07,242 [P2568/D2/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (4) - H696' with Id '0' has been published.
+ 2017-10-24 22:08:11,805 [P2568/D2/T58] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:08:11,821 [P2568/D2/T58] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:08:45,573 [P2568/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (5) - H333' with Id '0' has been published.
+ 2017-10-24 22:08:50,164 [P2568/D2/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:08:50,195 [P2568/D2/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:09:46,520 [P2568/D2/T28] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (6) H306' with Id '0' has been published.
+ 2017-10-24 22:09:51,023 [P2568/D2/T41] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:09:51,055 [P2568/D2/T41] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:10:18,552 [P2568/D2/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (7) - H189' with Id '0' has been published.
+ 2017-10-24 22:10:23,115 [P2568/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:10:23,131 [P2568/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:10:57,212 [P2568/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (8) - H523' with Id '0' has been published.
+ 2017-10-24 22:11:01,728 [P2568/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:11:01,759 [P2568/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:11:07,915 [P2568/D2/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:11:08,396 [P2568/D2/T34] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:11:08,397 [P2568/D2/T51] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:11:08,434 [P2568/D2/T86] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:11:08,849 [P2568/D2/T89] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:11:09,036 [P2568/D2/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:11:09,037 [P2568/D2/T34] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:11:09,070 [P2568/D2/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:11:09,100 [P2568/D2/T34] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:11:52,315 [P2568/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (2) - H253' with Id '5243' has been published.
+ 2017-10-24 22:11:53,440 [P2568/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (3) - H270' with Id '5244' has been published.
+ 2017-10-24 22:11:54,253 [P2568/D2/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (4) - H696' with Id '5245' has been published.
+ 2017-10-24 22:11:55,268 [P2568/D2/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (5) - H333' with Id '5246' has been published.
+ 2017-10-24 22:11:59,742 [P2568/D2/T16] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:11:59,789 [P2568/D2/T16] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:12:11,102 [P2568/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (6) H306' with Id '5247' has been published.
+ 2017-10-24 22:12:12,117 [P2568/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (7) - H189' with Id '5248' has been published.
+ 2017-10-24 22:12:13,039 [P2568/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test (8) - H523' with Id '5249' has been published.
+ 2017-10-24 22:12:17,486 [P2568/D2/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:12:17,518 [P2568/D2/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:12:18,598 [P2568/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cakes' with Id '1082' has been published.
+ 2017-10-24 22:12:23,052 [P2568/D2/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:12:23,067 [P2568/D2/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:12:29,448 [P2568/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:12:29,934 [P2568/D2/T73] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:12:29,934 [P2568/D2/T90] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:12:29,984 [P2568/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:12:30,385 [P2568/D2/T29] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:12:30,606 [P2568/D2/T29] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:12:30,625 [P2568/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:12:30,692 [P2568/D2/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:12:30,759 [P2568/D2/T81] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:12:59,111 [P2568/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Highlight News' with Id '1095' has been published.
+ 2017-10-24 22:13:03,598 [P2568/D2/T16] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:13:03,644 [P2568/D2/T16] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:35,830 [P2568/D2/T56] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:43,971 [P2568/D2/T43] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:51,763 [P2568/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Highlight News' with Id '1095' has been published.
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:53,735 [P2568/D2/T50] WARN  Umbraco.Core.Persistence.Repositories.VersionableRepositoryBase`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Umbraco.Core.Models.IContent, Umbraco.Core, Version=1.0.6185.24083, Culture=neutral, PublicKeyToken=null]] - The query returned multiple property sets for document definition 1095, Highlight
+ 2017-10-24 22:13:56,251 [P2568/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:13:56,298 [P2568/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:14:00,637 [P2568/D2/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-24 22:14:00,638 [P2568/D2/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-24 22:15:22,001 [P2568/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Highlight News' with Id '1095' has been published.
+ 2017-10-24 22:15:26,485 [P2568/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:15:26,501 [P2568/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:15:26,798 [P2568/D2/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:15:26,813 [P2568/D2/T38] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:15:26,829 [P2568/D2/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:15:26,845 [P2568/D2/T38] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:15:26,923 [P2568/D2/T38] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:15:27,157 [P2568/D2/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:15:27,188 [P2568/D2/T38] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:15:27,188 [P2568/D2/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:15:27,220 [P2568/D2/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:17:31,480 [P2568/D2/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Highlight News' with Id '1095' has been published.
+ 2017-10-24 22:17:35,836 [P2568/D2/T100] INFO  umbraco.content - Save Xml to file...
+ 2017-10-24 22:17:35,883 [P2568/D2/T100] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-24 22:17:37,113 [P2568/D2/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:17:38,710 [P2568/D2/T100] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:17:38,737 [P2568/D2/T100] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:17:38,776 [P2568/D2/T100] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:17:39,759 [P2568/D2/T97] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:17:39,987 [P2568/D2/T46] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:17:40,215 [P2568/D2/T97] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:17:40,231 [P2568/D2/T100] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:17:40,280 [P2568/D2/T97] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:32:21,069 [P2568/D2/T157] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: s.r.alem@gmail.com, IP Address: ::1
+ 2017-10-24 22:42:18,316 [P2568/D2/T318] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:42:20,046 [P2568/D2/T318] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:42:20,073 [P2568/D2/T318] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:42:20,128 [P2568/D2/T318] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:42:21,038 [P2568/D2/T301] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:42:21,339 [P2568/D2/T239] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:42:21,356 [P2568/D2/T230] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:42:21,413 [P2568/D2/T301] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:42:21,445 [P2568/D2/T301] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:54:49,785 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:54:50,189 [P2568/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:54:50,224 [P2568/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:54:50,244 [P2568/D2/T199] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:54:50,541 [P2568/D2/T200] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:54:50,881 [P2568/D2/T202] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:54:50,882 [P2568/D2/T199] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:54:50,939 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 22:54:50,972 [P2568/D2/T202] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:02:00,320 [P2568/D2/T161] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:02:00,780 [P2568/D2/T153] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:02:00,789 [P2568/D2/T68] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:02:00,842 [P2568/D2/T69] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:02:01,370 [P2568/D2/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:02:01,639 [P2568/D2/T161] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:02:01,657 [P2568/D2/T153] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:02:01,714 [P2568/D2/T102] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:02:01,746 [P2568/D2/T102] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:03:16,263 [P2568/D2/T102] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:03:16,664 [P2568/D2/T161] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:03:16,667 [P2568/D2/T36] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:03:16,702 [P2568/D2/T89] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:03:16,928 [P2568/D2/T72] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:03:17,126 [P2568/D2/T161] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:03:17,127 [P2568/D2/T73] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:03:17,153 [P2568/D2/T72] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:03:17,181 [P2568/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:04:14,260 [P2568/D2/T106] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:04:14,581 [P2568/D2/T106] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:04:14,581 [P2568/D2/T161] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:04:14,583 [P2568/D2/T64] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:04:14,812 [P2568/D2/T42] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:04:15,047 [P2568/D2/T94] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:04:15,047 [P2568/D2/T77] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:04:15,078 [P2568/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:04:15,105 [P2568/D2/T94] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:11:52,056 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:11:52,488 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:11:52,519 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:11:52,565 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:11:52,923 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:11:53,176 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:11:53,223 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:11:53,256 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:11:53,303 [P2568/D2/T198] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:13:56,450 [P2568/D2/T195] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:13:56,698 [P2568/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:13:56,713 [P2568/D2/T200] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:13:56,713 [P2568/D2/T194] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:13:56,982 [P2568/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:13:57,356 [P2568/D2/T206] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:13:57,381 [P2568/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:13:57,424 [P2568/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:13:57,466 [P2568/D2/T200] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:19:12,476 [P2568/D2/T61] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:19:12,820 [P2568/D2/T61] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:19:12,845 [P2568/D2/T227] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:19:12,845 [P2568/D2/T224] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:19:13,166 [P2568/D2/T227] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:19:13,408 [P2568/D2/T201] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:19:13,423 [P2568/D2/T63] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:19:13,479 [P2568/D2/T61] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:19:13,512 [P2568/D2/T63] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:22:23,614 [P2568/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:22:23,944 [P2568/D2/T165] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:22:23,946 [P2568/D2/T164] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:22:23,990 [P2568/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:22:24,212 [P2568/D2/T159] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:22:24,526 [P2568/D2/T154] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:22:24,527 [P2568/D2/T3] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:22:24,570 [P2568/D2/T156] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:22:24,601 [P2568/D2/T154] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:46:29,011 [P2568/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:46:29,570 [P2568/D2/T202] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:46:29,605 [P2568/D2/T193] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:46:29,613 [P2568/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:46:30,091 [P2568/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:46:30,421 [P2568/D2/T204] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:46:30,422 [P2568/D2/T217] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:46:30,495 [P2568/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:46:30,537 [P2568/D2/T204] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:48:24,434 [P2568/D2/T178] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:48:25,932 [P2568/D2/T175] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:48:25,950 [P2568/D2/T177] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:48:25,951 [P2568/D2/T181] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:48:26,585 [P2568/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:48:26,586 [P2568/D2/T173] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:48:26,621 [P2568/D2/T181] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-24 23:48:26,660 [P2568/D2/T173] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

@@ -1,0 +1,11 @@
+﻿ 2016-12-11 01:23:43,259 [P13408/D2/T150] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: s.r.alem@gmail.com, IP Address: ::1
+ 2016-12-11 01:23:43,373 [P13408/D2/T150] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://localhost:23695/umbraco").
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__7.MoveNext()
+ 2016-12-11 01:23:46,326 [P13408/D2/T179] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-12-11 01:23:50,257 [P13408/D2/T179] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username s.r.alem@gmail.com from IP address ::1
+ 2016-12-11 01:23:50,257 [P13408/D2/T179] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: s.r.alem@gmail.com logged in from IP address ::1
+ 2016-12-11 01:43:24,241 [P13408/D2/T422] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: s.r.alem@gmail.com, IP Address: ::1
+ 2016-12-11 02:29:55,536 [P13408/D2/T367] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-10 02:29:55

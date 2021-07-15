@@ -1,0 +1,36 @@
+﻿ 2017-10-13 00:00:13,675 [P12868/D3/T445] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-12 00:00:13
+ 2017-10-13 00:00:13,932 [P12868/D3/T445] INFO  umbraco.content - Load Xml from file...
+ 2017-10-13 00:00:13,934 [P12868/D3/T445] INFO  umbraco.content - Loaded Xml from file.
+ 2017-10-13 00:06:51,883 [P12868/D3/T449] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-10-13 00:06:51,885 [P12868/D3/T449] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-10-13 00:08:10,663 [P12868/D3/T443] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-10-13 00:08:10,664 [P12868/D3/T443] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 0ms)
+ 2017-10-13 00:08:11,434 [P12868/D3/T443] INFO  umbraco.content - Loading content from database...
+ 2017-10-13 00:08:15,510 [P12868/D3/T420] INFO  umbraco.content - Save Xml to file...
+ 2017-10-13 00:08:15,521 [P12868/D3/T420] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-13 00:08:22,914 [P12868/D3/T443] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-13 00:08:22,915 [P12868/D3/T443] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-13 00:08:23,103 [P12868/D3/T449] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-10-13 00:08:23,104 [P12868/D3/T449] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-10-13 00:08:23,113 [P12868/D3/T449] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-10-13 00:08:23,114 [P12868/D3/T449] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-10-13 00:09:50,531 [P12868/D3/T449] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cakes - Kuchen' with Id '3176' has been published.
+ 2017-10-13 00:09:55,106 [P12868/D3/T449] INFO  umbraco.content - Save Xml to file...
+ 2017-10-13 00:09:55,114 [P12868/D3/T449] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-13 00:09:55,586 [P12868/D3/T452] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cakes - Kuchen' with Id '3176' has been published.
+ 2017-10-13 00:09:59,923 [P12868/D3/T449] INFO  umbraco.content - Save Xml to file...
+ 2017-10-13 00:09:59,967 [P12868/D3/T449] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-13 00:10:02,006 [P12868/D3/T449] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cakes - Kuchen' with Id '3176' has been published.
+ 2017-10-13 00:10:06,369 [P12868/D3/T440] INFO  umbraco.content - Save Xml to file...
+ 2017-10-13 00:10:06,377 [P12868/D3/T440] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-13 00:25:48,659 [P12868/D3/T274] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: s.r.alem@gmail.com, IP Address: ::1
+ 2017-10-13 00:25:49,308 [P12868/D3/T274] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: s.r.alem@gmail.com, IP Address: ::1
+ 2017-10-13 00:59:31,746 [P12868/D3/T277] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username s.r.alem@gmail.com from IP address ::1
+ 2017-10-13 00:59:31,748 [P12868/D3/T277] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: s.r.alem@gmail.com logged in from IP address ::1
+ 2017-10-13 01:00:36,294 [P12868/D3/T277] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username s.r.alem@gmail.com from IP address ::1
+ 2017-10-13 01:00:36,294 [P12868/D3/T277] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: s.r.alem@gmail.com logged in from IP address ::1
+ 2017-10-13 01:02:30,076 [P12868/D3/T362] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-13 01:02:30,076 [P12868/D3/T362] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-13 01:02:59,802 [P12868/D3/T362] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Acrylbilder' with Id '3173' has been published.
+ 2017-10-13 01:03:04,262 [P12868/D3/T282] INFO  umbraco.content - Save Xml to file...
+ 2017-10-13 01:03:04,270 [P12868/D3/T282] INFO  umbraco.content - Saved Xml to file.

@@ -1,0 +1,180 @@
+﻿@using Jahan.Handicraft.Model.UModel.URenderModel;
+@using Jahan.Handicraft.Model.UModel
+@using Umbraco.Web.UI.Umbraco
+
+
+@{
+    Layout = "_Layout.cshtml";
+}
+<style type="text/css">
+    
+    #highlight img {
+    }
+    @@media screen and (min-width: 320px) and (max-width: 359px) {
+        .imageBox {
+            width: 248px !important;
+            height: 196.633px !important;
+            overflow-y: auto !important;
+        }
+        .captionHighlight {
+            width: 10em;
+        }
+    }
+    @@media screen and (min-width: 360px) and (max-width: 767px) {
+        .imageBox {
+            width: 288px !important;
+            height: 228.35px !important;
+            overflow-y: auto !important;
+        }
+        .captionHighlight {
+            width: 13em;
+        }
+    }
+    @@media screen and (min-width: 768px) and (max-width: 800px) {
+        .imageBox {
+            width: 196px !important;
+            height: 155.4px !important;
+            overflow-y: auto !important;
+        }
+        .captionHighlight {
+            width: 10em;
+        }
+    }
+    @@media screen and (min-width: 801px) and (max-width: 1279px) {
+        .imageBox {
+            width: 268px !important;
+            height: 212.483px !important;
+            overflow-y: auto !important;
+        }
+        .captionHighlight {
+            width: 10em;
+        }
+    }
+    @@media screen and (min-width: 1280px) and (max-width: 1920px) {
+        .imageBox {
+            width: 338px !important;
+            height: 268px !important;
+            overflow-y: auto !important;
+        }
+        .captionHighlight {
+            width: 13em;
+        }
+    }
+    .captionHighlight {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+        /*#highlight > li {
+        width: 370px !important;
+        height: 350px !important;
+        overflow: hidden !important;
+    }*/
+        .row-fluid [class*="span"]:nth-child(3n+1) {
+        margin-left: 0px !important;
+    }
+</style>
+<div>
+    @{
+        if (ViewBag.PhotoList != null)
+        {
+            List<Jahan.Handicraft.Model.UModel.Photo> photos = ViewBag.PhotoList as List<Jahan.Handicraft.Model.UModel.Photo>;
+            @Html.Partial("_ParallaxSlider", photos)
+        }
+
+    }
+    <div class="motopress-wrapper content-holder clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="span12" data-motopress-wrapper-file="page-home.php" data-motopress-wrapper-type="content">
+                    <div class="row">
+                        <div class="span12" data-motopress-type="loop" data-motopress-loop-file="loop/loop-page.php">
+                            <div id="post-203" class="post-203 page type-page status-publish hentry page">
+                                <div class="mp-row-fluid motopress-row">
+                                    <div class="mp-span12 motopress-span">
+                                        <div>
+                                            <div class="lazy-load-box effect-slidefromleft" data-delay="0" data-speed="600"
+                                                 style="transition: all 600ms ease 0s; opacity: 1;">
+                                                <div class="title-box clearfix effect-slidefromleft">
+                                                    <h2 class="title-box_primary">
+                                                        Today's
+                                                        specials!
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mp-row-fluid motopress-row">
+                                    <div class="mp-span12 motopress-span">
+                                        <div class="mp-row-fluid motopress-row">
+                                            <div class="mp-span12 motopress-span">
+                                                <div>
+                                                    <div class="lazy-load-box effect-slidefromright" data-delay="0" data-speed="600"
+                                                         style="transition: all 600ms ease 0s; opacity: 1;">
+                                                        <ul id="highlight" class="posts-grid row-fluid unstyled list_1 effect-slidefromright ul-item-0">
+                                                            @foreach (var hProd in ((List<HighlightProducts>)ViewBag.HighlightProd))
+                                                            {
+                                                                <li class="span4 list-item-1">
+                                                                    <figure class="featured-thumbnail thumbnail imageBox">
+                                                                        <a href="@hProd.LinkUrl" title="@hProd.Caption"
+                                                                           rel="prettyPhoto-1815621504">
+                                                                            <img src="@hProd.MainPicture" alt="@hProd.Caption">
+                                                                            @{
+                                                                                if (hProd.Price != null)
+                                                                                {
+                                                                                    if (hProd.FirstPartOfPrice != string.Empty)
+                                                                                    {
+                                                                                        <span class="price"><i>€</i>@hProd.FirstPartOfPrice<b>@hProd.SecondPartOfPrice</b></span>
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                            @*<span class="zoom-icon"></span>*@
+                                                                        </a>
+                                                                    </figure>
+                                                                    <div class="clear"></div>
+                                                                    <h5 >
+                                                                        <a href="@hProd.LinkUrl" title="@hProd.Caption">
+                                                                            <div class="captionHighlight">
+                                                                                @hProd.Caption
+                                                                            </div>
+                                                                            
+                                                                        </a>
+                                                                    </h5>
+                                                                </li>
+                                                                                }
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mp-row-fluid motopress-row">
+                                            <div class="mp-span12 motopress-span">
+                                                <div>
+                                                    <div class="lazy-load-box effect-fade" data-delay="0" data-speed="600"
+                                                         style="transition: all 600ms ease 0s; opacity: 1;">
+                                                        <div class="title-box clearfix extra effect-fade">
+                                                            <h2 class="title-box_primary">
+                                                                The most
+                                                                tender feelings in perfect shape!
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mp-row-fluid motopress-row">
+                                    @Html.Partial("_Banner", (List<Jahan.Handicraft.Model.UModel.Banner>)ViewBag.Banners)
+                                </div>
+                                <div class="clear"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

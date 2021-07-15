@@ -1,0 +1,27 @@
+﻿@using Jahan.Handicraft.Model.UModel;
+@model List<Jahan.Handicraft.Model.UModel.Breadcrumb>
+
+<section class="title-section">
+    <h1 class="title-header">
+        @Breadcrumb.CurrentTitle
+    </h1>
+    <ul class="breadcrumb breadcrumb__t">
+        @foreach (var b in Model)
+        {
+            if (Model.LastOrDefault() == b)
+            {
+                <li class="active">
+                    @b.Title
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="http://localhost:23695/@b.Link"> @b.Title </a>
+                </li>
+                <li class="divider">
+                </li>
+            }
+        }
+    </ul>
+</section>

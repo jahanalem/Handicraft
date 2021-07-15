@@ -1,0 +1,88 @@
+﻿
+@using System.Web.UI.WebControls
+@using Umbraco.Web;
+@model Jahan.Handicraft.Model.UModel.IncomingCall
+
+@using (var form = Html.BeginUmbracoForm("ContactForm", "IncomingCallSurface", FormMethod.Post
+    , new { @class = "wpcf7-form", name = "frmContact", id = "frmContact", onsubmit = "return false" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row-fluid">
+        <p class="span4 field">
+            <span class="wpcf7-form-control-wrap your-name">
+                @Html.TextBoxFor(c => c.FullName, new {@class = "wpcf7-form-control wpcf7-text wpcf7-validates-as-required", placeHolder = "Name:", aria_required = "true", aria_invalid = "false"})
+                <span id="fullnameError" role="alert" class="wpcf7-not-valid-tip errorValidation">Please fill the required field.</span>
+            </span>
+
+        </p>
+        <p class="span4 field">
+            <span class="wpcf7-form-control-wrap your-email">
+                @Html.TextBoxFor(c => c.Email
+                    , new
+                    {
+                        @class = "wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                        , placeHolder = "E-mail:"
+                        , required = "true"
+                        , type = "email"
+                        , aria_required = "true"
+                        , aria_invalid = "false"
+                    })
+                <span id="emailIsEmptyError" role="alert" class="wpcf7-not-valid-tip errorValidation">Please fill the required field.</span>
+                <span id="invalidEmailError" role="alert" class="wpcf7-not-valid-tip errorValidation">Email address seems invalid.</span>
+            </span>
+        </p>
+        <p class="span4 field">
+            <span class="wpcf7-form-control-wrap your-phone">
+                @Html.TextBoxFor(c => c.ContactNumber, new {@class = "wpcf7-form-control wpcf7-text", placeHolder = "Phone:", size = "40", required = "true", aria_required = "true", aria_invalid = "false"})
+
+            </span>
+        </p>
+    </div>
+    <p class="field">
+        <span class="wpcf7-form-control-wrap your-message">
+            @Html.TextBoxFor(c => c.Subject
+                , new
+                { @class = "wpcf7-form-control wpcf7-textarea"
+                , placeHolder = "Subject:"
+                , cols = "40"
+                , @maxlength = "99"
+                , required = "true"
+                , aria_required = "true"
+                , aria_invalid = "false"
+                })
+            <span id="textMessageError" role="alert" class="wpcf7-not-valid-tip errorValidation">Please fill the required field.</span>
+        </span>
+    </p>
+    <p class="field">
+        <span class="wpcf7-form-control-wrap your-message">
+            @Html.TextAreaFor(c => c.TextMessage
+                , new
+                { @class = "wpcf7-form-control wpcf7-textarea"
+                , placeHolder = "Message:"
+                , cols = "40"
+                , @maxlength = "512"
+                , rows = "10"
+                , required = "true"
+                , aria_required = "true"
+                , aria_invalid = "false"
+                })
+            <span id="textMessageError" role="alert" class="wpcf7-not-valid-tip errorValidation">Please fill the required field.</span>
+        </span>
+    </p>
+    <p class="submit-wrap">
+        <input type="reset" value="clear" class="btn btn-primary">
+        @*<input value="send" class="wpcf7-form-control wpcf7-submit btn btn-primary" type="submit">*@
+        <input type="submit" value="send" id="btnsubmit" class="btn btn-primary" onclick="submitForm()">
+        <img style="visibility: hidden;" alt="Sending ..." src="~/Content/images/ajax-loader.gif" class="ajax-loader">
+        <div class="ajax-loader">
+        </div>
+    </p>
+    <div class="wpcf7-response-output wpcf7-display-none"></div>
+    if (Convert.ToBoolean(TempData["hasError"]) == true)
+    {
+        <div id="generalError" class="wpcf7-response-output wpcf7-display-none wpcf7-validation-errors" style="display: block;" role="alert">
+            Validation errors occurred. Please confirm the fields and submit it again.
+        </div>
+    }
+}

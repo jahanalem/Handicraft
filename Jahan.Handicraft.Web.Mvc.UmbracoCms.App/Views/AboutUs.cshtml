@@ -1,0 +1,101 @@
+﻿@using Jahan.Handicraft.Model.UModel
+@using Jahan.Handicraft.Model.UModel.URenderModel
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<BaseRenderModel<Jahan.Handicraft.Model.UModel.AboutUs>>
+@{
+    Layout = "_Layout.cshtml";
+}
+
+<div class="page page-id-1797 page-parent page-template page-template-page-fullwidth-php">
+    <div id="motopress-main" class="main-holder">
+        <div class="motopress-wrapper content-holder clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="span12" data-motopress-wrapper-file="page-fullwidth.php" data-motopress-wrapper-type="content">
+                        <div class="row">
+                            <div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-title.php">
+                                @Html.Partial("_Breadcrumb", (List<Breadcrumb>)ViewBag.BreadcrumbList)
+                            </div>
+                        </div>
+                        <div id="content" class="row">
+                            <div class="span12" data-motopress-type="loop" data-motopress-loop-file="loop/loop-page.php">
+                                <div id="post-1797" class="post-1797 page type-page status-publish hentry page">
+                                    <div class="mp-row-fluid motopress-row">
+                                        <div class="mp-span12 motopress-span">
+                                            <div>
+                                                <div class="title-box clearfix type_1">
+
+                                                    <h2 class="title-box_primary">Who I am</h2>
+                                                </div>
+                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="mp-row-fluid motopress-row">
+                                        <div class="mp-span6 motopress-span">
+                                            <div>
+                                                <figure class="featured-thumbnail thumbnail video_preview clearfix">
+                                                    <div>
+                                                        <a class="preview_image" href="#" title="">
+                                                            <img src="@Model.Model.MyPhoto" alt="@Model.Model.Title">
+                                                            @*<span class="icon-play-circle hover"></span>*@
+                                                        </a>
+                                                        <figcaption>
+
+                                                        </figcaption>
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="mp-span6 motopress-span">
+                                            <div class="motopress-text-obj">
+                                                <p >
+                                                    @Html.Raw(Model.Model.Description)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mp-row-fluid motopress-row">
+                                        <div class="mp-span12 motopress-span motopress-space" style="min-height: 50px;">
+                                            <div class="motopress-space-obj 45"></div>
+                                        </div>
+                                    </div>
+                                    <div class="mp-row-fluid motopress-row">
+                                    </div>
+                                    <div class="mp-row-fluid motopress-row">
+                                        <div class="mp-span12 motopress-span">
+                                            <div>
+                                                <div class="testimonials ">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mp-row-fluid motopress-row">
+                                        <div class="mp-span12 motopress-span">
+                                            <div class="motopress-text-obj">
+                                                <h3></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mp-row-fluid motopress-row">
+                                    </div>
+                                    <div class="mp-row-fluid motopress-row">
+                                    </div>
+                                    <div class="mp-row-fluid motopress-row">
+                                        <div class="mp-span12 motopress-span motopress-space" style="min-height: 20px;">
+                                            <div class="motopress-space-obj"></div>
+                                        </div>
+                                    </div>
+                                    <div class="mp-row-fluid motopress-row">
+                                    </div>
+                                    <div class="mp-row-fluid motopress-row">
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

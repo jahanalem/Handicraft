@@ -1,0 +1,11 @@
+﻿@using Jahan.Handicraft.Model.UModel;
+@model List<Jahan.Handicraft.Model.UModel.Banner>
+
+
+    @{
+        foreach (var b in Model)
+        {
+            
+            @Html.Raw(b.Description)
+        }
+    }

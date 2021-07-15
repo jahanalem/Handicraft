@@ -1,0 +1,35 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Umbraco.Web;
+@using Umbraco.Web.Models;
+@using Umbraco.Core;
+@using Umbraco.Core.Services;
+
+<div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-nav.php">
+
+    <nav class="nav nav__primary clearfix">
+        <ul id="topnav" class="sf-menu sf-js-enabled">
+            @{
+                IPublishedContent targetNode = Model.Content;
+                int currentPageId = Model.Content.Id;
+                if (Model.Content.Parent != null)
+                {// run from a page
+                    for (int i = Model.Content.Level; i > 1; i--)
+                    {
+                        targetNode = targetNode.Parent;
+                    }
+                }
+                else
+                {// run from root
+                    targetNode = Model.Content;
+                }
+                IPublishedContent rootNode = targetNode;
+                if (rootNode != null)
+                {
+                    
+                    @MyHelpers.CreateNavigation(rootNode.Id, 2,currentPageId);
+            }
+            }
+        </ul>
+    </nav>
+    <div style="position: relative; display: block;" class="pseudoStickyBlock"></div>
+</div>

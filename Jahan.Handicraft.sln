@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jahan.Handicraft.Web.Mvc.UmbracoCms.App", "Jahan.Handicraft.Web.Mvc.UmbracoCms.App\Jahan.Handicraft.Web.Mvc.UmbracoCms.App.csproj", "{42E87234-1391-4912-8A22-7618FDD9F027}"
+	ProjectSection(ProjectDependencies) = postProject
+		{514B5CED-7676-4DFF-97D4-88AA02A3D10B} = {514B5CED-7676-4DFF-97D4-88AA02A3D10B}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Handicraft", "Handicraft", "{6F8A9734-EAF8-4DD2-90FF-8C0C666D8FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jahan.Handicraft.Model.UModel", "Jahan.Handicraft.Model.UModel\Jahan.Handicraft.Model.UModel.csproj", "{514B5CED-7676-4DFF-97D4-88AA02A3D10B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jahan.Handicraft.DataAccess.UDAL", "Jahan.Handicraft.DataAccess.UDAL\Jahan.Handicraft.DataAccess.UDAL.csproj", "{EE854AB8-824F-42F3-B5E2-99F71E7FBFE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{514B5CED-7676-4DFF-97D4-88AA02A3D10B} = {514B5CED-7676-4DFF-97D4-88AA02A3D10B}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BBA8C5A0-F918-4B0C-A592-1E482CC79F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jahan.Infrastructure.Helper", "Jahan.Infrastructure.Helper\Jahan.Infrastructure.Helper.csproj", "{60C68579-C2A2-4B9F-AEE8-0E51AE6640D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42E87234-1391-4912-8A22-7618FDD9F027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E87234-1391-4912-8A22-7618FDD9F027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E87234-1391-4912-8A22-7618FDD9F027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E87234-1391-4912-8A22-7618FDD9F027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514B5CED-7676-4DFF-97D4-88AA02A3D10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514B5CED-7676-4DFF-97D4-88AA02A3D10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514B5CED-7676-4DFF-97D4-88AA02A3D10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514B5CED-7676-4DFF-97D4-88AA02A3D10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE854AB8-824F-42F3-B5E2-99F71E7FBFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE854AB8-824F-42F3-B5E2-99F71E7FBFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE854AB8-824F-42F3-B5E2-99F71E7FBFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE854AB8-824F-42F3-B5E2-99F71E7FBFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C68579-C2A2-4B9F-AEE8-0E51AE6640D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C68579-C2A2-4B9F-AEE8-0E51AE6640D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C68579-C2A2-4B9F-AEE8-0E51AE6640D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C68579-C2A2-4B9F-AEE8-0E51AE6640D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42E87234-1391-4912-8A22-7618FDD9F027} = {6F8A9734-EAF8-4DD2-90FF-8C0C666D8FBA}
+		{514B5CED-7676-4DFF-97D4-88AA02A3D10B} = {6F8A9734-EAF8-4DD2-90FF-8C0C666D8FBA}
+		{EE854AB8-824F-42F3-B5E2-99F71E7FBFE8} = {6F8A9734-EAF8-4DD2-90FF-8C0C666D8FBA}
+		{60C68579-C2A2-4B9F-AEE8-0E51AE6640D5} = {BBA8C5A0-F918-4B0C-A592-1E482CC79F38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8F2BF22-3F93-4B7E-911A-BC62FA790947}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Jahan.Handicraft.DataAccess.UDAL\\Jahan.Handicraft.DataAccess.UDAL.csproj
+		SccProjectTopLevelParentUniqueName1 = Jahan.Handicraft.sln
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = Jahan.Handicraft.DataAccess.UDAL\\
+		SccProjectUniqueName2 = Jahan.Handicraft.Model.UModel\\Jahan.Handicraft.Model.UModel.csproj
+		SccProjectTopLevelParentUniqueName2 = Jahan.Handicraft.sln
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Jahan.Handicraft.Model.UModel\\
+		SccProjectUniqueName3 = Jahan.Handicraft.Web.Mvc.UmbracoCms.App\\Jahan.Handicraft.Web.Mvc.UmbracoCms.App.csproj
+		SccProjectTopLevelParentUniqueName3 = Jahan.Handicraft.sln
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = Jahan.Handicraft.Web.Mvc.UmbracoCms.App\\
+		SccProjectUniqueName4 = Jahan.Infrastructure.Helper\\Jahan.Infrastructure.Helper.csproj
+		SccProjectTopLevelParentUniqueName4 = Jahan.Handicraft.sln
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = Jahan.Infrastructure.Helper\\
+	EndGlobalSection
+EndGlobal

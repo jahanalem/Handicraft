@@ -1,0 +1,16 @@
+﻿{
+	propertyEditors:
+	[
+		{
+			alias:"Send.Reply",
+			name: "Send Reply",
+			editor:{
+				view:"~/App_Plugins/Reply/Reply.html"
+			},
+		}
+	]
+	,
+	javascript:[
+		'~/App_Plugins/Reply/Reply.controller.js'
+	]
+}

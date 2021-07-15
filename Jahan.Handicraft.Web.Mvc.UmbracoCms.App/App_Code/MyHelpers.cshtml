@@ -1,0 +1,96 @@
+﻿
+@using System.Web.Mvc
+@using Jahan.Handicraft.Web.Mvc.UmbracoCms.App.AppCode
+@using Umbraco.Core
+@using Umbraco.Core.Models
+@using Umbraco.Web
+@using Umbraco.Web.Models
+@* Recursive function for rendering child nodes for the specified node *@
+
+@helper CreateNavigation(int parentId, int depthNavigation, int currentPageId)
+{
+var parent = Node.ContentCache.GetById(parentId);
+depthNavigation += parent.Level;
+    @MyHelpers.Navigation(parentId, depthNavigation, currentPageId);
+}
+
+@helper Navigation(int parentId, int depthNavigation, int currentPageId)
+{
+IPublishedContent parent = Node.ContentCache.GetById(parentId);
+if (parent.Level <= (depthNavigation - 1) && parent.GetPropertyValue("UmbracoNaviHide").Equals(false) && parent.Children().Count() > 0)
+{
+    if (parent.Level > 1)
+    {
+            <ul style="visibility: hidden; display: none;" class="sub-menu">
+                @foreach (IPublishedContent child in parent.Children())
+                {
+                    if (child.Level <= depthNavigation && child.GetPropertyValue("UmbracoNaviHide").Equals(false))
+                    {
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="@child.Url">@child.Name</a>
+                            @Navigation(child.Id, depthNavigation, currentPageId)
+                        </li>
+                    }
+                }
+            </ul>
+        }
+        else
+        {
+            foreach (IPublishedContent child in parent.Children())
+            {
+                if (child.Level <= depthNavigation && child.GetPropertyValue("UmbracoNaviHide").Equals(false))
+                {
+                    if (currentPageId == child.Id)
+                    {
+                        <li id="menu-item-@child.Id" class="firstLevelOfMenu menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item">
+
+                            <a href="@child.Url">@child.Name</a>
+                            @Navigation(child.Id, depthNavigation, currentPageId)
+                        </li>
+                    }
+                    else
+                    {
+                        <li id="menu-item-@child.Id" class="firstLevelOfMenu menu-item menu-item-type-post_type menu-item-object-page">
+
+                            <a href="@child.Url">@child.Name</a>
+                            @Navigation(child.Id, depthNavigation, currentPageId)
+                        </li>
+                    }
+
+                }
+            }
+        }
+    }
+    else
+    {
+        foreach (IPublishedContent child in parent.Children())
+        {
+            if (child.Level <= depthNavigation && child.GetPropertyValue("UmbracoNaviHide").Equals(false))
+            {
+                <li>
+                    <a href="@child.Url">@child.Name</a>
+                    @Navigation(child.Id, depthNavigation, currentPageId)
+                </li>
+        }
+    }
+}
+}
+
+@*<li id="menu-item-1807"
+        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-203 current_page_item">
+        <a href="index.html">Home</a>
+    </li>
+    <li id="menu-item-1810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+        <a href="index-1.html">About us</a>
+        <ul style="visibility: hidden; display: none;" class="sub-menu">
+            <li id="menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="#">Testimonials</a>
+            </li>
+            <li id="menu-item-1812" class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="#">Archives</a>
+            </li>
+            <li id="menu-item-1805" class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="#">FAQs</a>
+            </li>
+        </ul>
+    </li>*@

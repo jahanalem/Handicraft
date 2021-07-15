@@ -1,0 +1,571 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<dynamic>
+
+@*@inherits Umbraco.Web.Mvc.UmbracoTemplatePage*@
+@using Jahan.Handicraft.Model.UModel
+@{
+    Layout = null;
+    @*<ContentModels._Layout>*@
+}
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie ie9" lang="en-US"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class=" js flexbox flexboxlegacy canvas canvastext draganddrop rgba multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients csstransitions generatedcontent video audio localstorage desktop portrait csstransforms no-csstransforms3d"
+      style="" lang="en-US">
+<!--<![endif]-->
+<head>
+    <link href="//fonts.googleapis.com/css?family=Rum+Raisin" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>@ViewBag.PageTitle</title>
+    <meta name="description" content=" @ViewBag.MetaDescription">
+    <meta name="keywords" itemprop="keywords" content="@ViewBag.MetaKeywords" />
+    <meta charset="UTF-8">
+    <script src="~/Content/js/nr-963.js"></script> @*ContactUs form*@
+    <script style="" src="~/Content/images/72d7dcce33" type="text/javascript"></script>
+    <script src="~/Content/js/nr-943.js"></script>
+
+    <script src="~/Content/js/linkid.js" async type="text/javascript"></script>
+    <script src="~/Content/js/analytics.js" async type="text/javascript"></script>
+    <script src="~/Content/js/gtm.js" async></script>
+    <script gapi_processed="true" src="~/Content/js/plusone.js" async type="text/javascript"></script>
+    <script src="~/Content/js/all.js" id="facebook-jssdk"></script>
+    <script src="~/Content/js/cloudflare.js" async></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        try {
+            if (!window.CloudFlare) {
+                var CloudFlare = [{
+                    verbose: 0,
+                    p: 0,
+                    byc: 0,
+                    owlid: "cf",
+                    bag2: 1,
+                    mirage2: 0,
+                    oracle: 0,
+                    paths: { cloudflare: "/cdn-cgi/nexp/dok3v=1613a3a185/" },
+                    atok: "8b93d3a974638bde0ded193b27c34749",
+                    petok: "514f50efac7bbba6b2273178035592fc4fb494cc-1471586751-86400",
+                    zone: "template-help.com",
+                    rocket: "0",
+                    apps: { "abetterbrowser": { "ie": "7" } },
+                    sha2test: 0
+                }];
+                !function (a, b) {
+                    a = document.createElement("script"), b = document.getElementsByTagName("script")[0], a.async = !0, a.src = "//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=0489c402f5/cloudflare.min.js", b.parentNode.insertBefore(a, b)
+                }()
+            }
+        } catch (e) {
+        }
+        ;
+        //]]>
+    </script>
+    <script type="text/javascript">
+    window.NREUM || (NREUM = {}), __nr_require = function (e, t, n) {
+        function r(n) {
+            if (!t[n]) {
+                var o = t[n] = { exports: {} };
+                e[n][0].call(o.exports, function (t) {
+                    var o = e[n][1][t];
+                    return r(o || t)
+                }, o, o.exports)
+            }
+            return t[n].exports
+        }
+
+        if ("function" == typeof __nr_require) return __nr_require;
+        for (var o = 0; o < n.length; o++) r(n[o]);
+        return r
+    }({
+        1: [function (e, t, n) {
+            function r(e, t) {
+                return function () {
+                    o(e, [(new Date).getTime()].concat(a(arguments)), null, t)
+                }
+            }
+
+            var o = e("handle"), i = e(2), a = e(3);
+            "undefined" == typeof window.newrelic && (newrelic = NREUM);
+            var u = ["setPageViewName", "setCustomAttribute", "finished", "addToTrace", "inlineHit"], c = ["addPageAction"], f = "api-";
+            i(u, function (e, t) {
+                newrelic[t] = r(f + t, "api")
+            }), i(c, function (e, t) {
+                newrelic[t] = r(f + t)
+            }), t.exports = newrelic, newrelic.noticeError = function (e) {
+                "string" == typeof e && (e = new Error(e)), o("err", [e, (new Date).getTime()])
+            }
+        }, {}], 2: [function (e, t, n) {
+            function r(e, t) {
+                var n = [], r = "", i = 0;
+                for (r in e) o.call(e, r) && (n[i] = t(r, e[r]), i += 1);
+                return n
+            }
+
+            var o = Object.prototype.hasOwnProperty;
+            t.exports = r
+        }, {}], 3: [function (e, t, n) {
+            function r(e, t, n) {
+                t || (t = 0), "undefined" == typeof n && (n = e ? e.length : 0);
+                for (var r = -1, o = n - t || 0, i = Array(0 > o ? 0 : o) ; ++r < o;) i[r] = e[t + r];
+                return i
+            }
+
+            t.exports = r
+        }, {}], ee: [function (e, t, n) {
+            function r() {
+            }
+
+            function o(e) {
+                function t(e) {
+                    return e && e instanceof r ? e : e ? u(e, a, i) : i()
+                }
+
+                function n(n, r, o) {
+                    e && e(n, r, o);
+                    for (var i = t(o), a = l(n), u = a.length, c = 0; u > c; c++) a[c].apply(i, r);
+                    var s = f[g[n]];
+                    return s && s.push([m, n, r, i]), i
+                }
+
+                function p(e, t) {
+                    w[e] = l(e).concat(t)
+                }
+
+                function l(e) {
+                    return w[e] || []
+                }
+
+                function d(e) {
+                    return s[e] = s[e] || o(n)
+                }
+
+                function v(e, t) {
+                    c(e, function (e, n) {
+                        t = t || "feature", g[n] = t, t in f || (f[t] = [])
+                    })
+                }
+
+                var w = {}, g = {}, m = { on: p, emit: n, get: d, listeners: l, context: t, buffer: v };
+                return m
+            }
+
+            function i() {
+                return new r
+            }
+
+            var a = "nr@context", u = e("gos"), c = e(2), f = {}, s = {}, p = t.exports = o();
+            p.backlog = f
+        }, {}], gos: [function (e, t, n) {
+            function r(e, t, n) {
+                if (o.call(e, t)) return e[t];
+                var r = n();
+                if (Object.defineProperty && Object.keys) try {
+                    return Object.defineProperty(e, t, { value: r, writable: !0, enumerable: !1 }), r
+                } catch (i) {
+                }
+                return e[t] = r, r
+            }
+
+            var o = Object.prototype.hasOwnProperty;
+            t.exports = r
+        }, {}], handle: [function (e, t, n) {
+            function r(e, t, n, r) {
+                o.buffer([e], r), o.emit(e, t, n)
+            }
+
+            var o = e("ee").get("handle");
+            t.exports = r, r.ee = o
+        }, {}], id: [function (e, t, n) {
+            function r(e) {
+                var t = typeof e;
+                return !e || "object" !== t && "function" !== t ? -1 : e === window ? 0 : a(e, i, function () {
+                    return o++
+                })
+            }
+
+            var o = 1, i = "nr@id", a = e("gos");
+            t.exports = r
+        }, {}], loader: [function (e, t, n) {
+            function r() {
+                if (!w++) {
+                    var e = v.info = NREUM.info, t = s.getElementsByTagName("script")[0];
+                    if (e && e.licenseKey && e.applicationID && t) {
+                        c(l, function (t, n) {
+                            e[t] || (e[t] = n)
+                        });
+                        var n = "https" === p.split(":")[0] || e.sslForHttp;
+                        v.proto = n ? "https://" : "http://", u("mark", ["onload", a()], null, "api");
+                        var r = s.createElement("script");
+                        r.src = v.proto + e.agent, t.parentNode.insertBefore(r, t)
+                    }
+                }
+            }
+
+            function o() {
+                "complete" === s.readyState && i()
+            }
+
+            function i() {
+                u("mark", ["domContent", a()], null, "api")
+            }
+
+            function a() {
+                return (new Date).getTime()
+            }
+
+            var u = e("handle"), c = e(2), f = window, s = f.document;
+            NREUM.o = {
+                ST: setTimeout,
+                CT: clearTimeout,
+                XHR: f.XMLHttpRequest,
+                REQ: f.Request,
+                EV: f.Event,
+                PR: f.Promise,
+                MO: f.MutationObserver
+            }, e(1);
+            var p = "" + location, l = {
+                                       beacon: "bam.nr-data.net",
+                                       errorBeacon: "bam.nr-data.net",
+                                       agent: "js-agent.newrelic.com/nr-943.min.js"
+                                   }, d = window.XMLHttpRequest && XMLHttpRequest.prototype && XMLHttpRequest.prototype.addEventListener && !/CriOS/.test(navigator.userAgent), v = t.exports = {
+                                                                                                                                                                                    offset: a(),
+                                                                                                                                                                                    origin: p,
+                                                                                                                                                                                    features: {},
+                                                                                                                                                                                    xhrWrappable: d
+                                                                                                                                                                                };
+            s.addEventListener ? (s.addEventListener("DOMContentLoaded", i, !1), f.addEventListener("load", r, !1)) : (s.attachEvent("onreadystatechange", o), f.attachEvent("onload", r)), u("mark", ["firstbyte", a()], null, "api");
+            var w = 0
+        }, {}]
+    }, {}, ["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="icon" href="~/Content/images/logo-16x16.png" type="image/x-icon">
+   
+    <link rel="stylesheet" type="text/css" media="all" href="~/Content/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="all" href="~/Content/css/responsive.css">
+    <link rel="stylesheet" type="text/css" media="all" href="~/Content/css/camera.css">
+    <link rel="stylesheet" type="text/css" media="all" href="~/Content/css/style.css">
+    
+    
+   
+    <link rel="stylesheet" id="flexslider-css" href="~/Content/css/flexslider.css" type="text/css" media="all">
+    <link rel="stylesheet" id="owl-carousel-css" href="~/Content/css/owl.css" type="text/css" media="all">
+    <link rel="stylesheet" id="owl-theme-css" href="~/Content/css/owl_002.css" type="text/css" media="all">
+    <link rel="stylesheet" id="font-awesome-css" href="~/Content/css/font-awesome.css" type="text/css" media="all">
+    <link rel="stylesheet" id="cherry-plugin-css" href="~/Content/css/cherry-plugin.css" type="text/css" media="all">
+    <link rel="stylesheet" id="cherry-lazy-load-css" href="~/Content/css/lazy-load.css" type="text/css" media="all">
+    <link rel="stylesheet" id="contact-form-7-css" href="~/Content/css/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="theme50935-css" href="~/Content/css/main-style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="magnific-popup-css" href="~/Content/css/magnific-popup.css" type="text/css" media="all">
+    <link rel="stylesheet" id="options_typography_Vast+Shadow-css" href="~/Content/css/css.css" type="text/css" media="all">
+    <link rel="stylesheet" id="mpce-bootstrap-grid-css" href="~/Content/css/bootstrap-grid.css" type="text/css" media="all">
+<link rel="stylesheet" id="mpce-theme-css" href="~/Content/css/theme.css" type="text/css" media="all">
+    
+    
+
+    <link href="~/css/cardStyle.css" rel="stylesheet" />
+    
+
+<script type="text/javascript" src="~/Content/js/jquery-1.js"></script>
+    <style type="text/css">
+        .cf-hidden {
+            display: none;
+        }
+
+        .cf-invisible {
+            visibility: hidden;
+        }
+    </style>
+    <script type="text/javascript" src="~/Content/js/parallaxSlider.js"></script>
+    <script type="text/javascript" src="~/Content/js/smoothing-scroll.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery-migrate-1.js"></script>
+    <script type="text/javascript" src="~/Content/js/swfobject.js"></script>
+    <script type="text/javascript" src="~/Content/js/modernizr.js"></script>
+    <script type="text/javascript" src="~/Content/js/jflickrfeed.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_011.js"></script>
+    <script type="text/javascript" src="~/Content/js/custom.js"></script>
+    <script type="text/javascript" src="~/Content/js/bootstrap.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.js"></script>
+    <script type="text/javascript" src="~/Content/images/js"></script>
+    <script type="text/javascript" src="~/Content/images/jsapi"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var motopressGoogleChartsPHPData = { "motopressCE": "0" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="~/Content/js/mp-google-charts.js"></script>
+    <script src="~/Content/images/a" type="text/javascript"></script>
+    <script src="~/Content/js/formatendefaulten.js" type="text/javascript"></script>
+    
+    
+    <meta name="generator" content="Umbraco">
+   
+    
+    <style type="text/css"></style>
+    <style type="text/css">
+        h1 {
+            font: normal 36px/48px Rum Raisin, sans-serif;
+            color: #6fb8af;
+        }
+
+        h2 {
+            font: normal 30px/42px Rum Raisin, sans-serif;
+            color: #372d30;
+        }
+
+        h3 {
+            font: normal 36px/48px Rum Raisin, sans-serif;
+            color: #6fb8af;
+        }
+
+        h4 {
+            font: normal 36px/48px Rum Raisin, sans-serif;
+            color: #6fb8af;
+        }
+
+        h5 {
+            font: normal 24px/30px Rum Raisin, sans-serif;
+            color: #332529;
+        }
+
+        h6 {
+            font: normal 18px/20px Rum Raisin, sans-serif;
+            color: #655b5e;
+        }
+
+        body {
+            font-weight: normal;
+        }
+
+        .logo_h__txt, .logo_link {
+            font: normal 72px/72px Vast Shadow;
+            color: #f7f6f0;
+        }
+
+        .sf-menu > li > a {
+            font: normal 24px/24px Rum Raisin, sans-serif;
+            color: #fffffe;
+        }
+
+        .nav.footer-nav a {
+            font: normal 11px/16px Arial, Helvetica, sans-serif;
+            color: #9d9094;
+        }
+    </style>
+    <!--[if lt IE 8]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+      <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img
+        src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt=""/></a>
+    </div>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="~/Content/js/jquery_010.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(function () {
+            jQuery('.sf-menu').mobileMenu({ defaultText: "Navigate to..." });
+        });
+    </script>
+    <!--<![endif]-->
+    <script type="text/javascript">
+        // Init navigation menu
+        jQuery(function () {
+            // main navigation init
+            jQuery('ul.sf-menu').superfish({
+                delay: 1000, // the delay in milliseconds that the mouse can remain outside a sub-menu without it closing
+                animation: {
+                    opacity: "show",
+                    height: "show"
+                }, // used to animate the sub-menu open
+                speed: "normal", // animation speed
+                autoArrows: false, // generation of arrow mark-up (for submenu)
+                disableHI: true // to disable hoverIntent detection
+            });
+
+            //Zoom fix
+            //IPad/IPhone
+            var viewportmeta = document.querySelector && document.querySelector('meta[name="viewport"]'),
+                ua = navigator.userAgent,
+                gestureStart = function () {
+                    viewportmeta.content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0";
+                },
+                scaleFix = function () {
+                    if (viewportmeta && /iPhone|iPad/.test(ua) && !/Opera Mini/.test(ua)) {
+                        viewportmeta.content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+                        document.addEventListener("gesturestart", gestureStart, false);
+                    }
+                };
+            scaleFix();
+        })
+    </script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            if (!device.mobile() && !device.tablet()) {
+                jQuery('.header .nav__primary').tmStickUp({
+                    correctionSelector: jQuery('#wpadminbar')
+                    , listenSelector: jQuery('.listenSelector')
+                    , active: false, pseudo: true
+                });
+            }
+        })
+    </script>
+    @*<style type="text/css">
+        @media screen and (max-width:767px) {
+            .sf-menu { display: none; }
+
+            .select-menu { display: block; }
+          }
+    </style>*@
+    <script src="~/Content/js/common.js" charset="UTF-8" type="text/javascript"></script>
+    <script src="~/Content/js/util.js" charset="UTF-8" type="text/javascript"></script>
+    <script src="~/Content/js/stats.js" charset="UTF-8" type="text/javascript"></script>
+
+    <script src="~/Content/js/Jahan-Handicraft.js" charset="UTF-8" type="text/javascript"></script>
+
+    <style>
+        .firstLevelOfMenu {
+            background-color: blue;
+            /*show first level of menu*/
+        }
+
+        .test {
+            background-color: black;
+            font-size: 8px;
+            border: #332529;
+            clear: both;
+        }
+    </style>
+
+    <style type="text/css">
+        .errorValidation {
+            display: none;
+            visibility: hidden;
+        }
+
+        .errorValidation_show {
+            display: block;
+            visibility: visible;
+        }
+    </style>
+
+
+</head>
+<body class="home page page-id-203 page-template page-template-page-home-php">
+    <div id="motopress-main" class="main-holder">
+
+        <header class="motopress-wrapper header">
+            <div class="container">
+                <div class="row">
+                    <div class="span12" data-motopress-wrapper-file="wrapper/wrapper-header.php"
+                         data-motopress-wrapper-type="header" data-motopress-id="5794beef485f8">
+                        <div class="row">
+                            <div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-logo.php">
+
+                                <div class="logo pull-left">
+                                    <a class="logo_h logo_h__img">
+                                        <img src="~/Content/images/logo-140x140.png" alt="Cake and Art"
+                                             title="Cake and Art">
+                                    </a>
+                                                                @*<a href="index.html" class="logo_h logo_h__img">
+                                    <img src="~/Content/images/logo.png" alt="Cake and Art"
+                                         title="Herzlich Willkommen auf meiner Seite!">
+                                </a>*@
+                                    @*<a style="margin-left: 100px;">
+                                        <img src="~/Content/images/logo-140x140.png" alt="Cake and Art"
+                                             title="logo">
+                                    </a>*@
+                                    <p class="logo_tagline">Herzlich Willkommen auf meiner Seite!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="span12 hidden-phone" data-motopress-type="static"
+                                 data-motopress-static-file="static/static-search.php">
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            @Html.Partial("_Menu")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="renderBody">
+            @RenderBody()
+        </div>
+
+
+
+        @Html.Partial("_Footer")
+
+    </div>
+    <div id="back-top-wrapper" class="visible-desktop">
+        <p style="display: none;" id="back-top">
+            <a href="#"><span></span></a>
+        </p>
+    </div>
+    <script type="text/javascript" src="~/Content/js/comment-reply.js"></script>
+    <script type="text/javascript" src="~/Content/js/cherry.js"></script>
+    <script type="text/javascript" src="~/Content/js/device_002.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_003.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var _wpcf7 = {
+            "loaderUrl": "http:\/\/livedemo00.template-help.com\/wordpress_50935\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif",
+            "sending": "Sending ..."
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="~/Content/js/scripts.js"></script>
+    <script type="text/javascript" src="~/Content/js/superfish.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_002.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_013.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_004.js"></script>
+    <script type="text/javascript" src="~/Content/js/jplayer.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_005.js"></script>
+    <script type="text/javascript" src="~/Content/js/tmstickup.js"></script>
+    <script type="text/javascript" src="~/Content/js/device.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_006.js"></script>
+    <script type="text/javascript" src="~/Content/js/camera.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_012.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_009.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_014.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var items_custom = [[0, 1], [480, 2], [768, 3], [980, 4], [1170, 5]];
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="~/Content/js/cherry-plugin.js"></script>
+    <script type="text/javascript" src="~/Content/js/owl.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_008.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_007.js"></script>
+    <script type="text/javascript" src="~/Content/js/mp-row-fullwidth.js"></script>
+
+<script type="text/javascript">
+        $("#highlight img").click(function(e) {
+        e.stopPropagation();
+    });
+    
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108263886-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108263886-1');
+    </script>
+
+</body>
+</html>

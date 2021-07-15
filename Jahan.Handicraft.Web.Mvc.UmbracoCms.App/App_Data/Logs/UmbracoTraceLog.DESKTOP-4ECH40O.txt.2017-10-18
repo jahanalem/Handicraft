@@ -1,0 +1,43 @@
+﻿ 2017-10-18 01:45:22,883 [P14944/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-4ECH40O
+ 2017-10-18 01:45:22,905 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-10-18 01:45:22,916 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2017-10-18 01:45:23,002 [P14944/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-10-18 01:45:23,003 [P14944/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-10-18 01:45:23,008 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-10-18 01:45:23,459 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 450ms)
+ 2017-10-18 01:45:23,590 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-10-18 01:45:23,591 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-10-18 01:45:23,591 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-10-18 01:45:23,593 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-10-18 01:45:23,605 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-10-18 01:45:23,607 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2017-10-18 01:45:23,607 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-10-18 01:45:23,663 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 55ms)
+ 2017-10-18 01:45:23,753 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-10-18 01:45:23,753 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-10-18 01:45:23,754 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-10-18 01:45:23,754 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-10-18 01:45:24,845 [P14944/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-18 01:45:25,058 [P14944/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-18 01:45:25,153 [P14944/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-10-18 01:45:25,164 [P14944/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-10-18 01:45:25,186 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-10-18 01:45:25,188 [P14944/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-10-18 01:45:25,572 [P14944/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-10-18 01:45:25,690 [P14944/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-10-18 01:45:25,701 [P14944/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-18 01:45:25,744 [P14944/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2964ms)
+ 2017-10-18 01:45:28,719 [P14944/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:23695/umbraco (UmbracoModule request)
+ 2017-10-18 01:45:29,276 [P14944/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2017-10-18 01:45:29,281 [P14944/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2017-10-18 01:45:29,925 [P14944/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-10-18 01:45:29,926 [P14944/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-10-18 01:45:33,249 [P14944/D2/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-18 01:45:33,249 [P14944/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-18 01:45:33,310 [P14944/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-18 01:45:33,311 [P14944/D2/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-18 01:45:33,470 [P14944/D2/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-18 01:45:33,535 [P14944/D2/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-18 01:45:33,536 [P14944/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-18 01:45:33,565 [P14944/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-18 01:46:29,327 [P14944/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-17 01:46:29

@@ -1,0 +1,78 @@
+﻿@using Jahan.Handicraft.Model.UModel
+@using Jahan.Handicraft.Model.UModel.URenderModel
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<BaseRenderModel<Jahan.Handicraft.Model.UModel.ContactUs>>
+
+@{
+    Layout = "_Layout.cshtml";
+}
+
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div class="page page-id-14 page-template page-template-page-fullwidth-php">
+    <div id="motopress-main" class="main-holder">
+
+
+        <div class="motopress-wrapper content-holder clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="span12" data-motopress-wrapper-file="page-fullwidth.php" data-motopress-wrapper-type="content">
+                        <div class="row">
+                            <div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-title.php">
+                                @Html.Partial("_Breadcrumb", (List<Breadcrumb>)ViewBag.BreadcrumbList)
+                            </div>
+                        </div>
+                        <div id="content" class="row">
+                            <div class="span12" data-motopress-type="loop" data-motopress-loop-file="loop/loop-page.php">
+                                <div id="post-14" class="post-14 page type-page status-publish hentry page">
+                                    <div class="mp-row-fluid motopress-row">
+                                        <div class="mp-span4 motopress-span">
+
+                                            <div class="mp-row-fluid motopress-row">
+                                                <div class="mp-span12 motopress-span">
+                                                    <div class="motopress-text-obj">
+                                                        <p>
+                                                            @Html.Raw(Model.Model.Description)
+                                                        </p>
+                                                        <p>
+                                                            @Html.Raw(Model.Model.Address)
+                                                        </p>
+                                                        <p>
+                                                            Telephone: @Model.Model.Telephone<br>
+                                                            @*FAX: @Model.Model.Fax<br>*@
+                                                            E-mail: <a href="@Model.Model.Email">@Model.Model.Email</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mp-span8 motopress-span">
+                                            <div class="mp-row-fluid motopress-row">
+                                                <div class="mp-span12 motopress-span">
+                                                    <div><div class="title-box clearfix "><h2 class="title-box_primary">Contact form</h2></div> </div>
+                                                </div>
+                                            </div>
+                                            <div class="mp-row-fluid motopress-row">
+                                                <div class="mp-span12 motopress-span">
+                                                    <div class="motopress-code-obj">
+                                                        <div class="wpcf7" id="wpcf7-f208-p14-o1">
+                                                            <div class="screen-reader-response"></div>
+                                                            @Html.Partial("_IncomingCall", new Jahan.Handicraft.Model.UModel.IncomingCall())
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+﻿@using Jahan.Handicraft.Model.UModel;
+@model List<Jahan.Handicraft.Model.UModel.Photo>
+
+<script type="text/javascript">
+    jQuery(function () {
+        var isparallax = true;
+        if (!device.mobile() && !device.tablet()) {
+            isparallax = true;
+        } else {
+            isparallax = false;
+        }
+
+        jQuery('#parallax-slider-5794beef65eb0').parallaxSlider({
+            animateLayout: "simple-fade-eff",
+            parallaxEffect: isparallax,
+            duration: 1500,
+            autoSwitcher: true,
+            autoSwitcherDelay: 7000,
+            slider_navs: false,
+            slider_pagination: true
+        });
+
+    });
+</script>
+
+<div id="parallax-slider-5794beef65eb0" class="parallax-slider">
+
+    <ul class="baseList">
+        @{
+            if (Model != null)
+            {
+                foreach (var photo in Model)
+                {
+                    @*<li>
+                        <img src="@photo.Picture" width="1382" height="550"/>
+                    </li>*@
+                    <li data-preview="@photo.Picture" data-img-width="1382" data-img-height="550"></li>
+                }
+            }
+        }
+       
+      
+    </ul>
+</div>
